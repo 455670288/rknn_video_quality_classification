@@ -1,0 +1,6 @@
+blur
+color-bar
+cover
+fringe-noise
+normal
+snow-noise

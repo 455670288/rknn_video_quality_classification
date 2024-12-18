@@ -1,0 +1,6 @@
+/home/firefly/ljh/resnet/3rdparty/build/CMakeFiles/install/strip.dir
+/home/firefly/ljh/resnet/3rdparty/build/CMakeFiles/install/local.dir
+/home/firefly/ljh/resnet/3rdparty/build/CMakeFiles/install.dir
+/home/firefly/ljh/resnet/3rdparty/build/CMakeFiles/list_install_components.dir
+/home/firefly/ljh/resnet/3rdparty/build/CMakeFiles/rebuild_cache.dir
+/home/firefly/ljh/resnet/3rdparty/build/CMakeFiles/edit_cache.dir

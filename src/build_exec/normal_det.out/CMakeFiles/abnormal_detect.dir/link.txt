@@ -1,0 +1,2 @@
+/usr/bin/ar qc libabnormal_detect.a CMakeFiles/abnormal_detect.dir/src/normal_det.cc.o
+/usr/bin/ranlib libabnormal_detect.a
