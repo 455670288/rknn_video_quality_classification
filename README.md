@@ -1,3 +1,6 @@
+自定义训练多标签resnet分类模型并基于RKNN提供的例程进行修改：https://github.com/airockchip/rknn_model_zoo/tree/main/examples/resnet
+
+
 # ResNet
 
 ## Model Source
