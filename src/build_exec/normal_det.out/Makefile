@@ -67,10 +67,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/firefly/ljh/resnet/src
+CMAKE_SOURCE_DIR = /home/firefly/ljh/resnet_multi_labels/resnet/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/firefly/ljh/resnet/src/build_exec
+CMAKE_BINARY_DIR = /home/firefly/ljh/resnet_multi_labels/resnet/src/build_exec
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -145,14 +145,14 @@ install/local/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/firefly/ljh/resnet/src/build_exec && $(CMAKE_COMMAND) -E cmake_progress_start /home/firefly/ljh/resnet/src/build_exec/CMakeFiles /home/firefly/ljh/resnet/src/build_exec/normal_det.out//CMakeFiles/progress.marks
-	cd /home/firefly/ljh/resnet/src/build_exec && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 normal_det.out/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/firefly/ljh/resnet/src/build_exec/CMakeFiles 0
+	cd /home/firefly/ljh/resnet_multi_labels/resnet/src/build_exec && $(CMAKE_COMMAND) -E cmake_progress_start /home/firefly/ljh/resnet_multi_labels/resnet/src/build_exec/CMakeFiles /home/firefly/ljh/resnet_multi_labels/resnet/src/build_exec/normal_det.out//CMakeFiles/progress.marks
+	cd /home/firefly/ljh/resnet_multi_labels/resnet/src/build_exec && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 normal_det.out/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/firefly/ljh/resnet_multi_labels/resnet/src/build_exec/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/firefly/ljh/resnet/src/build_exec && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 normal_det.out/clean
+	cd /home/firefly/ljh/resnet_multi_labels/resnet/src/build_exec && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 normal_det.out/clean
 .PHONY : clean
 
 # The main clean target
@@ -162,22 +162,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/firefly/ljh/resnet/src/build_exec && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 normal_det.out/preinstall
+	cd /home/firefly/ljh/resnet_multi_labels/resnet/src/build_exec && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 normal_det.out/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/firefly/ljh/resnet/src/build_exec && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 normal_det.out/preinstall
+	cd /home/firefly/ljh/resnet_multi_labels/resnet/src/build_exec && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 normal_det.out/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/firefly/ljh/resnet/src/build_exec && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/firefly/ljh/resnet_multi_labels/resnet/src/build_exec && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 normal_det.out/CMakeFiles/abnormal_detect.dir/rule:
-	cd /home/firefly/ljh/resnet/src/build_exec && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 normal_det.out/CMakeFiles/abnormal_detect.dir/rule
+	cd /home/firefly/ljh/resnet_multi_labels/resnet/src/build_exec && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 normal_det.out/CMakeFiles/abnormal_detect.dir/rule
 .PHONY : normal_det.out/CMakeFiles/abnormal_detect.dir/rule
 
 # Convenience name for target.
@@ -187,7 +187,7 @@ abnormal_detect: normal_det.out/CMakeFiles/abnormal_detect.dir/rule
 
 # fast build rule for target.
 abnormal_detect/fast:
-	cd /home/firefly/ljh/resnet/src/build_exec && $(MAKE) $(MAKESILENT) -f normal_det.out/CMakeFiles/abnormal_detect.dir/build.make normal_det.out/CMakeFiles/abnormal_detect.dir/build
+	cd /home/firefly/ljh/resnet_multi_labels/resnet/src/build_exec && $(MAKE) $(MAKESILENT) -f normal_det.out/CMakeFiles/abnormal_detect.dir/build.make normal_det.out/CMakeFiles/abnormal_detect.dir/build
 .PHONY : abnormal_detect/fast
 
 src/normal_det.o: src/normal_det.cc.o
@@ -196,7 +196,7 @@ src/normal_det.o: src/normal_det.cc.o
 
 # target to build an object file
 src/normal_det.cc.o:
-	cd /home/firefly/ljh/resnet/src/build_exec && $(MAKE) $(MAKESILENT) -f normal_det.out/CMakeFiles/abnormal_detect.dir/build.make normal_det.out/CMakeFiles/abnormal_detect.dir/src/normal_det.cc.o
+	cd /home/firefly/ljh/resnet_multi_labels/resnet/src/build_exec && $(MAKE) $(MAKESILENT) -f normal_det.out/CMakeFiles/abnormal_detect.dir/build.make normal_det.out/CMakeFiles/abnormal_detect.dir/src/normal_det.cc.o
 .PHONY : src/normal_det.cc.o
 
 src/normal_det.i: src/normal_det.cc.i
@@ -205,7 +205,7 @@ src/normal_det.i: src/normal_det.cc.i
 
 # target to preprocess a source file
 src/normal_det.cc.i:
-	cd /home/firefly/ljh/resnet/src/build_exec && $(MAKE) $(MAKESILENT) -f normal_det.out/CMakeFiles/abnormal_detect.dir/build.make normal_det.out/CMakeFiles/abnormal_detect.dir/src/normal_det.cc.i
+	cd /home/firefly/ljh/resnet_multi_labels/resnet/src/build_exec && $(MAKE) $(MAKESILENT) -f normal_det.out/CMakeFiles/abnormal_detect.dir/build.make normal_det.out/CMakeFiles/abnormal_detect.dir/src/normal_det.cc.i
 .PHONY : src/normal_det.cc.i
 
 src/normal_det.s: src/normal_det.cc.s
@@ -214,7 +214,7 @@ src/normal_det.s: src/normal_det.cc.s
 
 # target to generate assembly for a file
 src/normal_det.cc.s:
-	cd /home/firefly/ljh/resnet/src/build_exec && $(MAKE) $(MAKESILENT) -f normal_det.out/CMakeFiles/abnormal_detect.dir/build.make normal_det.out/CMakeFiles/abnormal_detect.dir/src/normal_det.cc.s
+	cd /home/firefly/ljh/resnet_multi_labels/resnet/src/build_exec && $(MAKE) $(MAKESILENT) -f normal_det.out/CMakeFiles/abnormal_detect.dir/build.make normal_det.out/CMakeFiles/abnormal_detect.dir/src/normal_det.cc.s
 .PHONY : src/normal_det.cc.s
 
 # Help Target
@@ -244,6 +244,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/firefly/ljh/resnet/src/build_exec && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/firefly/ljh/resnet_multi_labels/resnet/src/build_exec && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

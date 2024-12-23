@@ -4,7 +4,7 @@
 # compile C with /home/ljh/ljh_nfs/my_toolchain/host/bin/aarch64-buildroot-linux-gnu-gcc
 C_DEFINES = 
 
-C_INCLUDES = -I/home/ljh/ljh_nfs/resnet/utils
+C_INCLUDES = -I/home/ljh/ljh_nfs/resnet_multi_labels/resnet/utils
 
 C_FLAGS = -fPIC
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/firefly/ljh/resnet/src
+# Install script for directory: /home/firefly/ljh/resnet_multi_labels/resnet/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,9 +44,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/firefly/ljh/resnet/src/build_exec/3rdparty.out/cmake_install.cmake")
-  include("/home/firefly/ljh/resnet/src/build_exec/utils.out/cmake_install.cmake")
-  include("/home/firefly/ljh/resnet/src/build_exec/normal_det.out/cmake_install.cmake")
+  include("/home/firefly/ljh/resnet_multi_labels/resnet/src/build_exec/3rdparty.out/cmake_install.cmake")
+  include("/home/firefly/ljh/resnet_multi_labels/resnet/src/build_exec/utils.out/cmake_install.cmake")
+  include("/home/firefly/ljh/resnet_multi_labels/resnet/src/build_exec/normal_det.out/cmake_install.cmake")
 
 endif()
 
@@ -58,5 +58,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/firefly/ljh/resnet/src/build_exec/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/firefly/ljh/resnet_multi_labels/resnet/src/build_exec/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

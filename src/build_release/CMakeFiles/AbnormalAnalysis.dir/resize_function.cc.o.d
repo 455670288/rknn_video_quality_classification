@@ -1,7 +1,7 @@
 CMakeFiles/AbnormalAnalysis.dir/resize_function.cc.o: \
- /home/ljh/ljh_nfs/resnet/src/resize_function.cc \
+ /home/ljh/ljh_nfs/resnet_multi_labels/resnet/src/resize_function.cc \
  /home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/stdc-predef.h \
- /home/ljh/ljh_nfs/resnet/src/resize_function.h \
+ /home/ljh/ljh_nfs/resnet_multi_labels/resnet/src/resize_function.h \
  /home/ljh/ljh_nfs/my_toolchain/host/lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/include/stdint.h \
  /home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/stdint.h \
  /home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/libc-header-start.h \

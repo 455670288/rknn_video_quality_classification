@@ -1,5 +1,5 @@
 utils.out/CMakeFiles/imagedrawing.dir/image_drawing.c.o: \
- /home/ljh/ljh_nfs/resnet/utils/image_drawing.c \
+ /home/ljh/ljh_nfs/resnet_multi_labels/resnet/utils/image_drawing.c \
  /home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/stdc-predef.h \
  /home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/stdio.h \
  /home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/libc-header-start.h \
@@ -58,6 +58,6 @@ utils.out/CMakeFiles/imagedrawing.dir/image_drawing.c.o: \
  /home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/__locale_t.h \
  /home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/strings.h \
  /home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/ctype.h \
- /home/ljh/ljh_nfs/resnet/utils/image_drawing.h \
- /home/ljh/ljh_nfs/resnet/utils/common.h \
- /home/ljh/ljh_nfs/resnet/utils/font.h
+ /home/ljh/ljh_nfs/resnet_multi_labels/resnet/utils/image_drawing.h \
+ /home/ljh/ljh_nfs/resnet_multi_labels/resnet/utils/common.h \
+ /home/ljh/ljh_nfs/resnet_multi_labels/resnet/utils/font.h

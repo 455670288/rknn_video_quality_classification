@@ -1,4 +1,4 @@
-# Install script for directory: /home/firefly/ljh/resnet/utils
+# Install script for directory: /home/firefly/ljh/resnet_multi_labels/resnet/utils
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

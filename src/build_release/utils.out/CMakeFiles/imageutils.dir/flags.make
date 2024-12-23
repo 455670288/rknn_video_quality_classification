@@ -4,7 +4,7 @@
 # compile C with /home/ljh/ljh_nfs/my_toolchain/host/bin/aarch64-buildroot-linux-gnu-gcc
 C_DEFINES = 
 
-C_INCLUDES = -I/home/ljh/ljh_nfs/resnet/utils -I/home/ljh/ljh_nfs/resnet/src/../3rdparty/stb_image -I/home/ljh/ljh_nfs/resnet/src/../3rdparty/jpeg_turbo/include -I/home/ljh/ljh_nfs/resnet/src/../3rdparty/librga/include
+C_INCLUDES = -I/home/ljh/ljh_nfs/resnet_multi_labels/resnet/utils -I/home/ljh/ljh_nfs/resnet_multi_labels/resnet/src/../3rdparty/stb_image -I/home/ljh/ljh_nfs/resnet_multi_labels/resnet/src/../3rdparty/jpeg_turbo/include -I/home/ljh/ljh_nfs/resnet_multi_labels/resnet/src/../3rdparty/librga/include
 
 C_FLAGS = -fPIC
 

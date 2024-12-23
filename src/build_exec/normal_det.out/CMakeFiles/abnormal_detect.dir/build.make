@@ -62,10 +62,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/firefly/ljh/resnet/src
+CMAKE_SOURCE_DIR = /home/firefly/ljh/resnet_multi_labels/resnet/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/firefly/ljh/resnet/src/build_exec
+CMAKE_BINARY_DIR = /home/firefly/ljh/resnet_multi_labels/resnet/src/build_exec
 
 # Include any dependencies generated for this target.
 include normal_det.out/CMakeFiles/abnormal_detect.dir/depend.make
@@ -77,17 +77,17 @@ include normal_det.out/CMakeFiles/abnormal_detect.dir/progress.make
 include normal_det.out/CMakeFiles/abnormal_detect.dir/flags.make
 
 normal_det.out/CMakeFiles/abnormal_detect.dir/src/normal_det.cc.o: normal_det.out/CMakeFiles/abnormal_detect.dir/flags.make
-normal_det.out/CMakeFiles/abnormal_detect.dir/src/normal_det.cc.o: /home/firefly/ljh/resnet/freeze_detect/src/normal_det.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/firefly/ljh/resnet/src/build_exec/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object normal_det.out/CMakeFiles/abnormal_detect.dir/src/normal_det.cc.o"
-	cd /home/firefly/ljh/resnet/src/build_exec/normal_det.out && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/abnormal_detect.dir/src/normal_det.cc.o -c /home/firefly/ljh/resnet/freeze_detect/src/normal_det.cc
+normal_det.out/CMakeFiles/abnormal_detect.dir/src/normal_det.cc.o: /home/firefly/ljh/resnet_multi_labels/resnet/freeze_detect/src/normal_det.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/firefly/ljh/resnet_multi_labels/resnet/src/build_exec/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object normal_det.out/CMakeFiles/abnormal_detect.dir/src/normal_det.cc.o"
+	cd /home/firefly/ljh/resnet_multi_labels/resnet/src/build_exec/normal_det.out && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/abnormal_detect.dir/src/normal_det.cc.o -c /home/firefly/ljh/resnet_multi_labels/resnet/freeze_detect/src/normal_det.cc
 
 normal_det.out/CMakeFiles/abnormal_detect.dir/src/normal_det.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/abnormal_detect.dir/src/normal_det.cc.i"
-	cd /home/firefly/ljh/resnet/src/build_exec/normal_det.out && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/firefly/ljh/resnet/freeze_detect/src/normal_det.cc > CMakeFiles/abnormal_detect.dir/src/normal_det.cc.i
+	cd /home/firefly/ljh/resnet_multi_labels/resnet/src/build_exec/normal_det.out && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/firefly/ljh/resnet_multi_labels/resnet/freeze_detect/src/normal_det.cc > CMakeFiles/abnormal_detect.dir/src/normal_det.cc.i
 
 normal_det.out/CMakeFiles/abnormal_detect.dir/src/normal_det.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/abnormal_detect.dir/src/normal_det.cc.s"
-	cd /home/firefly/ljh/resnet/src/build_exec/normal_det.out && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/firefly/ljh/resnet/freeze_detect/src/normal_det.cc -o CMakeFiles/abnormal_detect.dir/src/normal_det.cc.s
+	cd /home/firefly/ljh/resnet_multi_labels/resnet/src/build_exec/normal_det.out && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/firefly/ljh/resnet_multi_labels/resnet/freeze_detect/src/normal_det.cc -o CMakeFiles/abnormal_detect.dir/src/normal_det.cc.s
 
 # Object files for target abnormal_detect
 abnormal_detect_OBJECTS = \
@@ -99,9 +99,9 @@ abnormal_detect_EXTERNAL_OBJECTS =
 normal_det.out/libabnormal_detect.a: normal_det.out/CMakeFiles/abnormal_detect.dir/src/normal_det.cc.o
 normal_det.out/libabnormal_detect.a: normal_det.out/CMakeFiles/abnormal_detect.dir/build.make
 normal_det.out/libabnormal_detect.a: normal_det.out/CMakeFiles/abnormal_detect.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/firefly/ljh/resnet/src/build_exec/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libabnormal_detect.a"
-	cd /home/firefly/ljh/resnet/src/build_exec/normal_det.out && $(CMAKE_COMMAND) -P CMakeFiles/abnormal_detect.dir/cmake_clean_target.cmake
-	cd /home/firefly/ljh/resnet/src/build_exec/normal_det.out && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/abnormal_detect.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/firefly/ljh/resnet_multi_labels/resnet/src/build_exec/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libabnormal_detect.a"
+	cd /home/firefly/ljh/resnet_multi_labels/resnet/src/build_exec/normal_det.out && $(CMAKE_COMMAND) -P CMakeFiles/abnormal_detect.dir/cmake_clean_target.cmake
+	cd /home/firefly/ljh/resnet_multi_labels/resnet/src/build_exec/normal_det.out && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/abnormal_detect.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 normal_det.out/CMakeFiles/abnormal_detect.dir/build: normal_det.out/libabnormal_detect.a
@@ -109,10 +109,10 @@ normal_det.out/CMakeFiles/abnormal_detect.dir/build: normal_det.out/libabnormal_
 .PHONY : normal_det.out/CMakeFiles/abnormal_detect.dir/build
 
 normal_det.out/CMakeFiles/abnormal_detect.dir/clean:
-	cd /home/firefly/ljh/resnet/src/build_exec/normal_det.out && $(CMAKE_COMMAND) -P CMakeFiles/abnormal_detect.dir/cmake_clean.cmake
+	cd /home/firefly/ljh/resnet_multi_labels/resnet/src/build_exec/normal_det.out && $(CMAKE_COMMAND) -P CMakeFiles/abnormal_detect.dir/cmake_clean.cmake
 .PHONY : normal_det.out/CMakeFiles/abnormal_detect.dir/clean
 
 normal_det.out/CMakeFiles/abnormal_detect.dir/depend:
-	cd /home/firefly/ljh/resnet/src/build_exec && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/firefly/ljh/resnet/src /home/firefly/ljh/resnet/freeze_detect /home/firefly/ljh/resnet/src/build_exec /home/firefly/ljh/resnet/src/build_exec/normal_det.out /home/firefly/ljh/resnet/src/build_exec/normal_det.out/CMakeFiles/abnormal_detect.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/firefly/ljh/resnet_multi_labels/resnet/src/build_exec && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/firefly/ljh/resnet_multi_labels/resnet/src /home/firefly/ljh/resnet_multi_labels/resnet/freeze_detect /home/firefly/ljh/resnet_multi_labels/resnet/src/build_exec /home/firefly/ljh/resnet_multi_labels/resnet/src/build_exec/normal_det.out /home/firefly/ljh/resnet_multi_labels/resnet/src/build_exec/normal_det.out/CMakeFiles/abnormal_detect.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : normal_det.out/CMakeFiles/abnormal_detect.dir/depend
 

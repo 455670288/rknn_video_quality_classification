@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ljh/ljh_nfs/resnet/src
+CMAKE_SOURCE_DIR = /home/ljh/ljh_nfs/resnet_multi_labels/resnet/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ljh/ljh_nfs/resnet/src/build_release
+CMAKE_BINARY_DIR = /home/ljh/ljh_nfs/resnet_multi_labels/resnet/src/build_release
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ljh/ljh_nfs/resnet/src/build_release && $(CMAKE_COMMAND) -E cmake_progress_start /home/ljh/ljh_nfs/resnet/src/build_release/CMakeFiles /home/ljh/ljh_nfs/resnet/src/build_release/utils.out//CMakeFiles/progress.marks
-	cd /home/ljh/ljh_nfs/resnet/src/build_release && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils.out/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ljh/ljh_nfs/resnet/src/build_release/CMakeFiles 0
+	cd /home/ljh/ljh_nfs/resnet_multi_labels/resnet/src/build_release && $(CMAKE_COMMAND) -E cmake_progress_start /home/ljh/ljh_nfs/resnet_multi_labels/resnet/src/build_release/CMakeFiles /home/ljh/ljh_nfs/resnet_multi_labels/resnet/src/build_release/utils.out//CMakeFiles/progress.marks
+	cd /home/ljh/ljh_nfs/resnet_multi_labels/resnet/src/build_release && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils.out/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ljh/ljh_nfs/resnet_multi_labels/resnet/src/build_release/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ljh/ljh_nfs/resnet/src/build_release && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils.out/clean
+	cd /home/ljh/ljh_nfs/resnet_multi_labels/resnet/src/build_release && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils.out/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ljh/ljh_nfs/resnet/src/build_release && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils.out/preinstall
+	cd /home/ljh/ljh_nfs/resnet_multi_labels/resnet/src/build_release && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils.out/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ljh/ljh_nfs/resnet/src/build_release && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils.out/preinstall
+	cd /home/ljh/ljh_nfs/resnet_multi_labels/resnet/src/build_release && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils.out/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ljh/ljh_nfs/resnet/src/build_release && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ljh/ljh_nfs/resnet_multi_labels/resnet/src/build_release && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 utils.out/CMakeFiles/fileutils.dir/rule:
-	cd /home/ljh/ljh_nfs/resnet/src/build_release && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils.out/CMakeFiles/fileutils.dir/rule
+	cd /home/ljh/ljh_nfs/resnet_multi_labels/resnet/src/build_release && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils.out/CMakeFiles/fileutils.dir/rule
 .PHONY : utils.out/CMakeFiles/fileutils.dir/rule
 
 # Convenience name for target.
@@ -172,12 +172,12 @@ fileutils: utils.out/CMakeFiles/fileutils.dir/rule
 
 # fast build rule for target.
 fileutils/fast:
-	cd /home/ljh/ljh_nfs/resnet/src/build_release && $(MAKE) $(MAKESILENT) -f utils.out/CMakeFiles/fileutils.dir/build.make utils.out/CMakeFiles/fileutils.dir/build
+	cd /home/ljh/ljh_nfs/resnet_multi_labels/resnet/src/build_release && $(MAKE) $(MAKESILENT) -f utils.out/CMakeFiles/fileutils.dir/build.make utils.out/CMakeFiles/fileutils.dir/build
 .PHONY : fileutils/fast
 
 # Convenience name for target.
 utils.out/CMakeFiles/imagedrawing.dir/rule:
-	cd /home/ljh/ljh_nfs/resnet/src/build_release && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils.out/CMakeFiles/imagedrawing.dir/rule
+	cd /home/ljh/ljh_nfs/resnet_multi_labels/resnet/src/build_release && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils.out/CMakeFiles/imagedrawing.dir/rule
 .PHONY : utils.out/CMakeFiles/imagedrawing.dir/rule
 
 # Convenience name for target.
@@ -186,12 +186,12 @@ imagedrawing: utils.out/CMakeFiles/imagedrawing.dir/rule
 
 # fast build rule for target.
 imagedrawing/fast:
-	cd /home/ljh/ljh_nfs/resnet/src/build_release && $(MAKE) $(MAKESILENT) -f utils.out/CMakeFiles/imagedrawing.dir/build.make utils.out/CMakeFiles/imagedrawing.dir/build
+	cd /home/ljh/ljh_nfs/resnet_multi_labels/resnet/src/build_release && $(MAKE) $(MAKESILENT) -f utils.out/CMakeFiles/imagedrawing.dir/build.make utils.out/CMakeFiles/imagedrawing.dir/build
 .PHONY : imagedrawing/fast
 
 # Convenience name for target.
 utils.out/CMakeFiles/imageutils.dir/rule:
-	cd /home/ljh/ljh_nfs/resnet/src/build_release && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils.out/CMakeFiles/imageutils.dir/rule
+	cd /home/ljh/ljh_nfs/resnet_multi_labels/resnet/src/build_release && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils.out/CMakeFiles/imageutils.dir/rule
 .PHONY : utils.out/CMakeFiles/imageutils.dir/rule
 
 # Convenience name for target.
@@ -200,7 +200,7 @@ imageutils: utils.out/CMakeFiles/imageutils.dir/rule
 
 # fast build rule for target.
 imageutils/fast:
-	cd /home/ljh/ljh_nfs/resnet/src/build_release && $(MAKE) $(MAKESILENT) -f utils.out/CMakeFiles/imageutils.dir/build.make utils.out/CMakeFiles/imageutils.dir/build
+	cd /home/ljh/ljh_nfs/resnet_multi_labels/resnet/src/build_release && $(MAKE) $(MAKESILENT) -f utils.out/CMakeFiles/imageutils.dir/build.make utils.out/CMakeFiles/imageutils.dir/build
 .PHONY : imageutils/fast
 
 file_utils.o: file_utils.c.o
@@ -208,7 +208,7 @@ file_utils.o: file_utils.c.o
 
 # target to build an object file
 file_utils.c.o:
-	cd /home/ljh/ljh_nfs/resnet/src/build_release && $(MAKE) $(MAKESILENT) -f utils.out/CMakeFiles/fileutils.dir/build.make utils.out/CMakeFiles/fileutils.dir/file_utils.c.o
+	cd /home/ljh/ljh_nfs/resnet_multi_labels/resnet/src/build_release && $(MAKE) $(MAKESILENT) -f utils.out/CMakeFiles/fileutils.dir/build.make utils.out/CMakeFiles/fileutils.dir/file_utils.c.o
 .PHONY : file_utils.c.o
 
 file_utils.i: file_utils.c.i
@@ -216,7 +216,7 @@ file_utils.i: file_utils.c.i
 
 # target to preprocess a source file
 file_utils.c.i:
-	cd /home/ljh/ljh_nfs/resnet/src/build_release && $(MAKE) $(MAKESILENT) -f utils.out/CMakeFiles/fileutils.dir/build.make utils.out/CMakeFiles/fileutils.dir/file_utils.c.i
+	cd /home/ljh/ljh_nfs/resnet_multi_labels/resnet/src/build_release && $(MAKE) $(MAKESILENT) -f utils.out/CMakeFiles/fileutils.dir/build.make utils.out/CMakeFiles/fileutils.dir/file_utils.c.i
 .PHONY : file_utils.c.i
 
 file_utils.s: file_utils.c.s
@@ -224,7 +224,7 @@ file_utils.s: file_utils.c.s
 
 # target to generate assembly for a file
 file_utils.c.s:
-	cd /home/ljh/ljh_nfs/resnet/src/build_release && $(MAKE) $(MAKESILENT) -f utils.out/CMakeFiles/fileutils.dir/build.make utils.out/CMakeFiles/fileutils.dir/file_utils.c.s
+	cd /home/ljh/ljh_nfs/resnet_multi_labels/resnet/src/build_release && $(MAKE) $(MAKESILENT) -f utils.out/CMakeFiles/fileutils.dir/build.make utils.out/CMakeFiles/fileutils.dir/file_utils.c.s
 .PHONY : file_utils.c.s
 
 image_drawing.o: image_drawing.c.o
@@ -232,7 +232,7 @@ image_drawing.o: image_drawing.c.o
 
 # target to build an object file
 image_drawing.c.o:
-	cd /home/ljh/ljh_nfs/resnet/src/build_release && $(MAKE) $(MAKESILENT) -f utils.out/CMakeFiles/imagedrawing.dir/build.make utils.out/CMakeFiles/imagedrawing.dir/image_drawing.c.o
+	cd /home/ljh/ljh_nfs/resnet_multi_labels/resnet/src/build_release && $(MAKE) $(MAKESILENT) -f utils.out/CMakeFiles/imagedrawing.dir/build.make utils.out/CMakeFiles/imagedrawing.dir/image_drawing.c.o
 .PHONY : image_drawing.c.o
 
 image_drawing.i: image_drawing.c.i
@@ -240,7 +240,7 @@ image_drawing.i: image_drawing.c.i
 
 # target to preprocess a source file
 image_drawing.c.i:
-	cd /home/ljh/ljh_nfs/resnet/src/build_release && $(MAKE) $(MAKESILENT) -f utils.out/CMakeFiles/imagedrawing.dir/build.make utils.out/CMakeFiles/imagedrawing.dir/image_drawing.c.i
+	cd /home/ljh/ljh_nfs/resnet_multi_labels/resnet/src/build_release && $(MAKE) $(MAKESILENT) -f utils.out/CMakeFiles/imagedrawing.dir/build.make utils.out/CMakeFiles/imagedrawing.dir/image_drawing.c.i
 .PHONY : image_drawing.c.i
 
 image_drawing.s: image_drawing.c.s
@@ -248,7 +248,7 @@ image_drawing.s: image_drawing.c.s
 
 # target to generate assembly for a file
 image_drawing.c.s:
-	cd /home/ljh/ljh_nfs/resnet/src/build_release && $(MAKE) $(MAKESILENT) -f utils.out/CMakeFiles/imagedrawing.dir/build.make utils.out/CMakeFiles/imagedrawing.dir/image_drawing.c.s
+	cd /home/ljh/ljh_nfs/resnet_multi_labels/resnet/src/build_release && $(MAKE) $(MAKESILENT) -f utils.out/CMakeFiles/imagedrawing.dir/build.make utils.out/CMakeFiles/imagedrawing.dir/image_drawing.c.s
 .PHONY : image_drawing.c.s
 
 image_utils.o: image_utils.c.o
@@ -256,7 +256,7 @@ image_utils.o: image_utils.c.o
 
 # target to build an object file
 image_utils.c.o:
-	cd /home/ljh/ljh_nfs/resnet/src/build_release && $(MAKE) $(MAKESILENT) -f utils.out/CMakeFiles/imageutils.dir/build.make utils.out/CMakeFiles/imageutils.dir/image_utils.c.o
+	cd /home/ljh/ljh_nfs/resnet_multi_labels/resnet/src/build_release && $(MAKE) $(MAKESILENT) -f utils.out/CMakeFiles/imageutils.dir/build.make utils.out/CMakeFiles/imageutils.dir/image_utils.c.o
 .PHONY : image_utils.c.o
 
 image_utils.i: image_utils.c.i
@@ -264,7 +264,7 @@ image_utils.i: image_utils.c.i
 
 # target to preprocess a source file
 image_utils.c.i:
-	cd /home/ljh/ljh_nfs/resnet/src/build_release && $(MAKE) $(MAKESILENT) -f utils.out/CMakeFiles/imageutils.dir/build.make utils.out/CMakeFiles/imageutils.dir/image_utils.c.i
+	cd /home/ljh/ljh_nfs/resnet_multi_labels/resnet/src/build_release && $(MAKE) $(MAKESILENT) -f utils.out/CMakeFiles/imageutils.dir/build.make utils.out/CMakeFiles/imageutils.dir/image_utils.c.i
 .PHONY : image_utils.c.i
 
 image_utils.s: image_utils.c.s
@@ -272,7 +272,7 @@ image_utils.s: image_utils.c.s
 
 # target to generate assembly for a file
 image_utils.c.s:
-	cd /home/ljh/ljh_nfs/resnet/src/build_release && $(MAKE) $(MAKESILENT) -f utils.out/CMakeFiles/imageutils.dir/build.make utils.out/CMakeFiles/imageutils.dir/image_utils.c.s
+	cd /home/ljh/ljh_nfs/resnet_multi_labels/resnet/src/build_release && $(MAKE) $(MAKESILENT) -f utils.out/CMakeFiles/imageutils.dir/build.make utils.out/CMakeFiles/imageutils.dir/image_utils.c.s
 .PHONY : image_utils.c.s
 
 # Help Target
@@ -310,6 +310,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ljh/ljh_nfs/resnet/src/build_release && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ljh/ljh_nfs/resnet_multi_labels/resnet/src/build_release && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

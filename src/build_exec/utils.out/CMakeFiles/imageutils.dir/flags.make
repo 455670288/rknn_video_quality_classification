@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/home/firefly/ljh/resnet/utils -I/home/firefly/ljh/resnet/src/../3rdparty/stb_image -I/home/firefly/ljh/resnet/src/../3rdparty/jpeg_turbo/include -I/home/firefly/ljh/resnet/src/../3rdparty/librga/include
+C_INCLUDES = -I/home/firefly/ljh/resnet_multi_labels/resnet/utils -I/home/firefly/ljh/resnet_multi_labels/resnet/src/../3rdparty/stb_image -I/home/firefly/ljh/resnet_multi_labels/resnet/src/../3rdparty/jpeg_turbo/include -I/home/firefly/ljh/resnet_multi_labels/resnet/src/../3rdparty/librga/include
 
 C_FLAGS = -fPIC
 

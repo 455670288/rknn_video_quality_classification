@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/firefly/ljh/resnet/src/../include -I/home/firefly/ljh/resnet/src -I/home/firefly/ljh/resnet/src/../3rdparty/rknpu2/include -I/home/firefly/ljh/resnet/freeze_detect/src -I/home/firefly/ljh/resnet/utils -I/home/firefly/ljh/resnet/src/../3rdparty/stb_image -I/home/firefly/ljh/resnet/src/../3rdparty/jpeg_turbo/include -I/home/firefly/ljh/resnet/src/../3rdparty/librga/include -isystem /usr/include/opencv4
+CXX_INCLUDES = -I/home/firefly/ljh/resnet_multi_labels/resnet/src/../include -I/home/firefly/ljh/resnet_multi_labels/resnet/src -I/home/firefly/ljh/resnet_multi_labels/resnet/src/../3rdparty/rknpu2/include -I/home/firefly/ljh/resnet_multi_labels/resnet/freeze_detect/src -I/home/firefly/ljh/resnet_multi_labels/resnet/utils -I/home/firefly/ljh/resnet_multi_labels/resnet/src/../3rdparty/stb_image -I/home/firefly/ljh/resnet_multi_labels/resnet/src/../3rdparty/jpeg_turbo/include -I/home/firefly/ljh/resnet_multi_labels/resnet/src/../3rdparty/librga/include -isystem /home/firefly/ljh/opencv4.5-dynamic/include/opencv4
 
 CXX_FLAGS = -fPIE -pthread
 

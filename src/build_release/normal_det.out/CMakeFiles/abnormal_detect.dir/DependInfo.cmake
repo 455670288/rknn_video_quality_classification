@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/ljh/ljh_nfs/resnet/freeze_detect/src/normal_det.cc" "normal_det.out/CMakeFiles/abnormal_detect.dir/src/normal_det.cc.o" "gcc" "normal_det.out/CMakeFiles/abnormal_detect.dir/src/normal_det.cc.o.d"
+  "/home/ljh/ljh_nfs/resnet_multi_labels/resnet/freeze_detect/src/normal_det.cc" "normal_det.out/CMakeFiles/abnormal_detect.dir/src/normal_det.cc.o" "gcc" "normal_det.out/CMakeFiles/abnormal_detect.dir/src/normal_det.cc.o.d"
   )
 
 # Targets to which this target links.

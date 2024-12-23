@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/ljh/ljh_nfs/resnet/src/build_release/CMakeFiles/3.22.1/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/ljh/ljh_nfs/resnet_multi_labels/resnet/src/build_release/CMakeFiles/3.22.1/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /home/ljh/ljh_nfs/my_toolchain/host/bin/aarch64-buildroot-linux-gnu-g++ 
@@ -23,15 +23,15 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/ljh/ljh_nfs/resnet/src/build_release/CMakeFiles/3.22.1/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/ljh/ljh_nfs/resnet_multi_labels/resnet/src/build_release/CMakeFiles/3.22.1/CompilerIdCXX/a.out"
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/ljh/ljh_nfs/resnet/src/build_release/CMakeFiles/CMakeTmp
+Change Dir: /home/ljh/ljh_nfs/resnet_multi_labels/resnet/src/build_release/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_20f80/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_20f80.dir/build.make CMakeFiles/cmTC_20f80.dir/build
-gmake[1]: Entering directory '/home/ljh/ljh_nfs/resnet/src/build_release/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_20f80.dir/CMakeCCompilerABI.c.o
-/home/ljh/ljh_nfs/my_toolchain/host/bin/aarch64-buildroot-linux-gnu-gcc   -v -o CMakeFiles/cmTC_20f80.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f13ac/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f13ac.dir/build.make CMakeFiles/cmTC_f13ac.dir/build
+gmake[1]: Entering directory '/home/ljh/ljh_nfs/resnet_multi_labels/resnet/src/build_release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f13ac.dir/CMakeCCompilerABI.c.o
+/home/ljh/ljh_nfs/my_toolchain/host/bin/aarch64-buildroot-linux-gnu-gcc   -v -o CMakeFiles/cmTC_f13ac.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
 Using built-in specs.
 COLLECT_GCC=/home/ljh/ljh_nfs/my_toolchain/host/bin/aarch64-buildroot-linux-gnu-gcc.br_real
 Target: aarch64-buildroot-linux-gnu
@@ -39,8 +39,8 @@ Configured with: ./configure --prefix=/home/rk/rk3588_new/buildroot/output/rockc
 Thread model: posix
 Supported LTO compression algorithms: zlib
 gcc version 10.4.0 (Buildroot -g707f65be-dirty) 
-COLLECT_GCC_OPTIONS='-fstack-protector-strong' '-fPIE' '-pie' '-v' '-o' 'CMakeFiles/cmTC_20f80.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=cortex-a76.cortex-a55' '-mlittle-endian' '-mabi=lp64'
- /home/ljh/ljh_nfs/my_toolchain/host/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/10.4.0/cc1 -quiet -v -iprefix /home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/ -isysroot /home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=cortex-a76.cortex-a55 -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_20f80.dir/CMakeCCompilerABI.c.o -version -fstack-protector-strong -fPIE -o /tmp/cceNBFk6.s
+COLLECT_GCC_OPTIONS='-fstack-protector-strong' '-fPIE' '-pie' '-v' '-o' 'CMakeFiles/cmTC_f13ac.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=cortex-a76.cortex-a55' '-mlittle-endian' '-mabi=lp64'
+ /home/ljh/ljh_nfs/my_toolchain/host/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/10.4.0/cc1 -quiet -v -iprefix /home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/ -isysroot /home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=cortex-a76.cortex-a55 -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_f13ac.dir/CMakeCCompilerABI.c.o -version -fstack-protector-strong -fPIE -o /tmp/ccJwdNGT.s
 GNU C17 (Buildroot -g707f65be-dirty) version 10.4.0 (aarch64-buildroot-linux-gnu)
 	compiled by GNU C version 7.5.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
@@ -59,15 +59,15 @@ GNU C17 (Buildroot -g707f65be-dirty) version 10.4.0 (aarch64-buildroot-linux-gnu
 	compiled by GNU C version 7.5.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: be08a7cddbdc2e7087fdc4dffe197939
-COLLECT_GCC_OPTIONS='-fstack-protector-strong' '-fPIE' '-pie' '-v' '-o' 'CMakeFiles/cmTC_20f80.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=cortex-a76.cortex-a55' '-mlittle-endian' '-mabi=lp64'
- /home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/../../../../aarch64-buildroot-linux-gnu/bin/as -v -EL -march=armv8.2-a+fp16+rcpc+dotprod -mabi=lp64 -o CMakeFiles/cmTC_20f80.dir/CMakeCCompilerABI.c.o /tmp/cceNBFk6.s
+COLLECT_GCC_OPTIONS='-fstack-protector-strong' '-fPIE' '-pie' '-v' '-o' 'CMakeFiles/cmTC_f13ac.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=cortex-a76.cortex-a55' '-mlittle-endian' '-mabi=lp64'
+ /home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/../../../../aarch64-buildroot-linux-gnu/bin/as -v -EL -march=armv8.2-a+fp16+rcpc+dotprod -mabi=lp64 -o CMakeFiles/cmTC_f13ac.dir/CMakeCCompilerABI.c.o /tmp/ccJwdNGT.s
 GNU assembler version 2.37 (aarch64-buildroot-linux-gnu) using BFD version (GNU Binutils) 2.37
 COMPILER_PATH=/home/ljh/ljh_nfs/my_toolchain/host/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/10.4.0/:/home/ljh/ljh_nfs/my_toolchain/host/bin/../libexec/gcc/:/home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/../../../../aarch64-buildroot-linux-gnu/bin/
 LIBRARY_PATH=/home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/:/home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/:/home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/../../../../aarch64-buildroot-linux-gnu/lib/../lib64/:/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/lib/../lib64/:/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/:/home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/../../../../aarch64-buildroot-linux-gnu/lib/:/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/lib/:/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/
-COLLECT_GCC_OPTIONS='-fstack-protector-strong' '-fPIE' '-pie' '-v' '-o' 'CMakeFiles/cmTC_20f80.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=cortex-a76.cortex-a55' '-mlittle-endian' '-mabi=lp64'
-Linking C executable cmTC_20f80
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_20f80.dir/link.txt --verbose=1
-/home/ljh/ljh_nfs/my_toolchain/host/bin/aarch64-buildroot-linux-gnu-gcc  -v CMakeFiles/cmTC_20f80.dir/CMakeCCompilerABI.c.o -o cmTC_20f80 
+COLLECT_GCC_OPTIONS='-fstack-protector-strong' '-fPIE' '-pie' '-v' '-o' 'CMakeFiles/cmTC_f13ac.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=cortex-a76.cortex-a55' '-mlittle-endian' '-mabi=lp64'
+Linking C executable cmTC_f13ac
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f13ac.dir/link.txt --verbose=1
+/home/ljh/ljh_nfs/my_toolchain/host/bin/aarch64-buildroot-linux-gnu-gcc  -v CMakeFiles/cmTC_f13ac.dir/CMakeCCompilerABI.c.o -o cmTC_f13ac 
 Using built-in specs.
 COLLECT_GCC=/home/ljh/ljh_nfs/my_toolchain/host/bin/aarch64-buildroot-linux-gnu-gcc.br_real
 COLLECT_LTO_WRAPPER=/home/ljh/ljh_nfs/my_toolchain/host/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/10.4.0/lto-wrapper
@@ -78,10 +78,10 @@ Supported LTO compression algorithms: zlib
 gcc version 10.4.0 (Buildroot -g707f65be-dirty) 
 COMPILER_PATH=/home/ljh/ljh_nfs/my_toolchain/host/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/10.4.0/:/home/ljh/ljh_nfs/my_toolchain/host/bin/../libexec/gcc/:/home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/../../../../aarch64-buildroot-linux-gnu/bin/
 LIBRARY_PATH=/home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/:/home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/:/home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/../../../../aarch64-buildroot-linux-gnu/lib/../lib64/:/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/lib/../lib64/:/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/:/home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/../../../../aarch64-buildroot-linux-gnu/lib/:/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/lib/:/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/
-COLLECT_GCC_OPTIONS='-fstack-protector-strong' '-fPIE' '-pie' '-v' '-o' 'cmTC_20f80' '-mcpu=cortex-a76.cortex-a55' '-mlittle-endian' '-mabi=lp64'
- /home/ljh/ljh_nfs/my_toolchain/host/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/10.4.0/collect2 -plugin /home/ljh/ljh_nfs/my_toolchain/host/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/10.4.0/liblto_plugin.so -plugin-opt=/home/ljh/ljh_nfs/my_toolchain/host/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/10.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccr0Mf27.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot --eh-frame-hdr -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -pie -o cmTC_20f80 /home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/Scrt1.o /home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/crti.o /home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/crtbeginS.o -L/home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0 -L/home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc -L/home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/../../../../aarch64-buildroot-linux-gnu/lib/../lib64 -L/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/lib/../lib64 -L/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64 -L/home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/../../../../aarch64-buildroot-linux-gnu/lib -L/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/lib -L/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib -z now -z relro CMakeFiles/cmTC_20f80.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/crtendS.o /home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/crtn.o
-COLLECT_GCC_OPTIONS='-fstack-protector-strong' '-fPIE' '-pie' '-v' '-o' 'cmTC_20f80' '-mcpu=cortex-a76.cortex-a55' '-mlittle-endian' '-mabi=lp64'
-gmake[1]: Leaving directory '/home/ljh/ljh_nfs/resnet/src/build_release/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-fstack-protector-strong' '-fPIE' '-pie' '-v' '-o' 'cmTC_f13ac' '-mcpu=cortex-a76.cortex-a55' '-mlittle-endian' '-mabi=lp64'
+ /home/ljh/ljh_nfs/my_toolchain/host/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/10.4.0/collect2 -plugin /home/ljh/ljh_nfs/my_toolchain/host/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/10.4.0/liblto_plugin.so -plugin-opt=/home/ljh/ljh_nfs/my_toolchain/host/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/10.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccV3BtNF.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot --eh-frame-hdr -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -pie -o cmTC_f13ac /home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/Scrt1.o /home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/crti.o /home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/crtbeginS.o -L/home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0 -L/home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc -L/home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/../../../../aarch64-buildroot-linux-gnu/lib/../lib64 -L/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/lib/../lib64 -L/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64 -L/home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/../../../../aarch64-buildroot-linux-gnu/lib -L/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/lib -L/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib -z now -z relro CMakeFiles/cmTC_f13ac.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/crtendS.o /home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-fstack-protector-strong' '-fPIE' '-pie' '-v' '-o' 'cmTC_f13ac' '-mcpu=cortex-a76.cortex-a55' '-mlittle-endian' '-mabi=lp64'
+gmake[1]: Leaving directory '/home/ljh/ljh_nfs/resnet_multi_labels/resnet/src/build_release/CMakeFiles/CMakeTmp'
 
 
 
@@ -102,12 +102,12 @@ Parsed C implicit include dir info from above output: rv=done
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(aarch64-buildroot-linux-gnu-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/ljh/ljh_nfs/resnet/src/build_release/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/ljh/ljh_nfs/resnet_multi_labels/resnet/src/build_release/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_20f80/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_20f80.dir/build.make CMakeFiles/cmTC_20f80.dir/build]
-  ignore line: [gmake[1]: Entering directory '/home/ljh/ljh_nfs/resnet/src/build_release/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_20f80.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/home/ljh/ljh_nfs/my_toolchain/host/bin/aarch64-buildroot-linux-gnu-gcc   -v -o CMakeFiles/cmTC_20f80.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f13ac/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f13ac.dir/build.make CMakeFiles/cmTC_f13ac.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/ljh/ljh_nfs/resnet_multi_labels/resnet/src/build_release/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_f13ac.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/home/ljh/ljh_nfs/my_toolchain/host/bin/aarch64-buildroot-linux-gnu-gcc   -v -o CMakeFiles/cmTC_f13ac.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/home/ljh/ljh_nfs/my_toolchain/host/bin/aarch64-buildroot-linux-gnu-gcc.br_real]
   ignore line: [Target: aarch64-buildroot-linux-gnu]
@@ -115,8 +115,8 @@ Parsed C implicit link information from above output:
   ignore line: [Thread model: posix]
   ignore line: [Supported LTO compression algorithms: zlib]
   ignore line: [gcc version 10.4.0 (Buildroot -g707f65be-dirty) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-fstack-protector-strong' '-fPIE' '-pie' '-v' '-o' 'CMakeFiles/cmTC_20f80.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=cortex-a76.cortex-a55' '-mlittle-endian' '-mabi=lp64']
-  ignore line: [ /home/ljh/ljh_nfs/my_toolchain/host/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/10.4.0/cc1 -quiet -v -iprefix /home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/ -isysroot /home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=cortex-a76.cortex-a55 -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_20f80.dir/CMakeCCompilerABI.c.o -version -fstack-protector-strong -fPIE -o /tmp/cceNBFk6.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-fstack-protector-strong' '-fPIE' '-pie' '-v' '-o' 'CMakeFiles/cmTC_f13ac.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=cortex-a76.cortex-a55' '-mlittle-endian' '-mabi=lp64']
+  ignore line: [ /home/ljh/ljh_nfs/my_toolchain/host/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/10.4.0/cc1 -quiet -v -iprefix /home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/ -isysroot /home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=cortex-a76.cortex-a55 -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_f13ac.dir/CMakeCCompilerABI.c.o -version -fstack-protector-strong -fPIE -o /tmp/ccJwdNGT.s]
   ignore line: [GNU C17 (Buildroot -g707f65be-dirty) version 10.4.0 (aarch64-buildroot-linux-gnu)]
   ignore line: [	compiled by GNU C version 7.5.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
@@ -135,15 +135,15 @@ Parsed C implicit link information from above output:
   ignore line: [	compiled by GNU C version 7.5.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: be08a7cddbdc2e7087fdc4dffe197939]
-  ignore line: [COLLECT_GCC_OPTIONS='-fstack-protector-strong' '-fPIE' '-pie' '-v' '-o' 'CMakeFiles/cmTC_20f80.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=cortex-a76.cortex-a55' '-mlittle-endian' '-mabi=lp64']
-  ignore line: [ /home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/../../../../aarch64-buildroot-linux-gnu/bin/as -v -EL -march=armv8.2-a+fp16+rcpc+dotprod -mabi=lp64 -o CMakeFiles/cmTC_20f80.dir/CMakeCCompilerABI.c.o /tmp/cceNBFk6.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-fstack-protector-strong' '-fPIE' '-pie' '-v' '-o' 'CMakeFiles/cmTC_f13ac.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=cortex-a76.cortex-a55' '-mlittle-endian' '-mabi=lp64']
+  ignore line: [ /home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/../../../../aarch64-buildroot-linux-gnu/bin/as -v -EL -march=armv8.2-a+fp16+rcpc+dotprod -mabi=lp64 -o CMakeFiles/cmTC_f13ac.dir/CMakeCCompilerABI.c.o /tmp/ccJwdNGT.s]
   ignore line: [GNU assembler version 2.37 (aarch64-buildroot-linux-gnu) using BFD version (GNU Binutils) 2.37]
   ignore line: [COMPILER_PATH=/home/ljh/ljh_nfs/my_toolchain/host/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/10.4.0/:/home/ljh/ljh_nfs/my_toolchain/host/bin/../libexec/gcc/:/home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/../../../../aarch64-buildroot-linux-gnu/bin/]
   ignore line: [LIBRARY_PATH=/home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/:/home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/:/home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/../../../../aarch64-buildroot-linux-gnu/lib/../lib64/:/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/lib/../lib64/:/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/:/home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/../../../../aarch64-buildroot-linux-gnu/lib/:/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/lib/:/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-fstack-protector-strong' '-fPIE' '-pie' '-v' '-o' 'CMakeFiles/cmTC_20f80.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=cortex-a76.cortex-a55' '-mlittle-endian' '-mabi=lp64']
-  ignore line: [Linking C executable cmTC_20f80]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_20f80.dir/link.txt --verbose=1]
-  ignore line: [/home/ljh/ljh_nfs/my_toolchain/host/bin/aarch64-buildroot-linux-gnu-gcc  -v CMakeFiles/cmTC_20f80.dir/CMakeCCompilerABI.c.o -o cmTC_20f80 ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fstack-protector-strong' '-fPIE' '-pie' '-v' '-o' 'CMakeFiles/cmTC_f13ac.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=cortex-a76.cortex-a55' '-mlittle-endian' '-mabi=lp64']
+  ignore line: [Linking C executable cmTC_f13ac]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f13ac.dir/link.txt --verbose=1]
+  ignore line: [/home/ljh/ljh_nfs/my_toolchain/host/bin/aarch64-buildroot-linux-gnu-gcc  -v CMakeFiles/cmTC_f13ac.dir/CMakeCCompilerABI.c.o -o cmTC_f13ac ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/home/ljh/ljh_nfs/my_toolchain/host/bin/aarch64-buildroot-linux-gnu-gcc.br_real]
   ignore line: [COLLECT_LTO_WRAPPER=/home/ljh/ljh_nfs/my_toolchain/host/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/10.4.0/lto-wrapper]
@@ -154,13 +154,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 10.4.0 (Buildroot -g707f65be-dirty) ]
   ignore line: [COMPILER_PATH=/home/ljh/ljh_nfs/my_toolchain/host/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/10.4.0/:/home/ljh/ljh_nfs/my_toolchain/host/bin/../libexec/gcc/:/home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/../../../../aarch64-buildroot-linux-gnu/bin/]
   ignore line: [LIBRARY_PATH=/home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/:/home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/:/home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/../../../../aarch64-buildroot-linux-gnu/lib/../lib64/:/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/lib/../lib64/:/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/:/home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/../../../../aarch64-buildroot-linux-gnu/lib/:/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/lib/:/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-fstack-protector-strong' '-fPIE' '-pie' '-v' '-o' 'cmTC_20f80' '-mcpu=cortex-a76.cortex-a55' '-mlittle-endian' '-mabi=lp64']
-  link line: [ /home/ljh/ljh_nfs/my_toolchain/host/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/10.4.0/collect2 -plugin /home/ljh/ljh_nfs/my_toolchain/host/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/10.4.0/liblto_plugin.so -plugin-opt=/home/ljh/ljh_nfs/my_toolchain/host/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/10.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccr0Mf27.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot --eh-frame-hdr -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -pie -o cmTC_20f80 /home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/Scrt1.o /home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/crti.o /home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/crtbeginS.o -L/home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0 -L/home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc -L/home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/../../../../aarch64-buildroot-linux-gnu/lib/../lib64 -L/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/lib/../lib64 -L/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64 -L/home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/../../../../aarch64-buildroot-linux-gnu/lib -L/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/lib -L/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib -z now -z relro CMakeFiles/cmTC_20f80.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/crtendS.o /home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-fstack-protector-strong' '-fPIE' '-pie' '-v' '-o' 'cmTC_f13ac' '-mcpu=cortex-a76.cortex-a55' '-mlittle-endian' '-mabi=lp64']
+  link line: [ /home/ljh/ljh_nfs/my_toolchain/host/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/10.4.0/collect2 -plugin /home/ljh/ljh_nfs/my_toolchain/host/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/10.4.0/liblto_plugin.so -plugin-opt=/home/ljh/ljh_nfs/my_toolchain/host/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/10.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccV3BtNF.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot --eh-frame-hdr -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -pie -o cmTC_f13ac /home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/Scrt1.o /home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/crti.o /home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/crtbeginS.o -L/home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0 -L/home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc -L/home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/../../../../aarch64-buildroot-linux-gnu/lib/../lib64 -L/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/lib/../lib64 -L/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64 -L/home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/../../../../aarch64-buildroot-linux-gnu/lib -L/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/lib -L/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib -z now -z relro CMakeFiles/cmTC_f13ac.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/crtendS.o /home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/crtn.o]
     arg [/home/ljh/ljh_nfs/my_toolchain/host/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/10.4.0/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/home/ljh/ljh_nfs/my_toolchain/host/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/10.4.0/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/home/ljh/ljh_nfs/my_toolchain/host/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/10.4.0/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccr0Mf27.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccV3BtNF.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -175,7 +175,7 @@ Parsed C implicit link information from above output:
     arg [-maarch64linux] ==> ignore
     arg [-pie] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_20f80] ==> ignore
+    arg [cmTC_f13ac] ==> ignore
     arg [/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/Scrt1.o] ==> obj [/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/Scrt1.o]
     arg [/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/crti.o] ==> obj [/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/crti.o]
     arg [/home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/crtbeginS.o] ==> obj [/home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/crtbeginS.o]
@@ -189,7 +189,7 @@ Parsed C implicit link information from above output:
     arg [-L/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib] ==> dir [/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib]
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
-    arg [CMakeFiles/cmTC_20f80.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_f13ac.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -223,12 +223,12 @@ Parsed C implicit link information from above output:
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/ljh/ljh_nfs/resnet/src/build_release/CMakeFiles/CMakeTmp
+Change Dir: /home/ljh/ljh_nfs/resnet_multi_labels/resnet/src/build_release/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d1473/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d1473.dir/build.make CMakeFiles/cmTC_d1473.dir/build
-gmake[1]: Entering directory '/home/ljh/ljh_nfs/resnet/src/build_release/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_d1473.dir/CMakeCXXCompilerABI.cpp.o
-/home/ljh/ljh_nfs/my_toolchain/host/bin/aarch64-buildroot-linux-gnu-g++   -v -o CMakeFiles/cmTC_d1473.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7319c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7319c.dir/build.make CMakeFiles/cmTC_7319c.dir/build
+gmake[1]: Entering directory '/home/ljh/ljh_nfs/resnet_multi_labels/resnet/src/build_release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7319c.dir/CMakeCXXCompilerABI.cpp.o
+/home/ljh/ljh_nfs/my_toolchain/host/bin/aarch64-buildroot-linux-gnu-g++   -v -o CMakeFiles/cmTC_7319c.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp
 Using built-in specs.
 COLLECT_GCC=/home/ljh/ljh_nfs/my_toolchain/host/bin/aarch64-buildroot-linux-gnu-g++.br_real
 Target: aarch64-buildroot-linux-gnu
@@ -236,8 +236,8 @@ Configured with: ./configure --prefix=/home/rk/rk3588_new/buildroot/output/rockc
 Thread model: posix
 Supported LTO compression algorithms: zlib
 gcc version 10.4.0 (Buildroot -g707f65be-dirty) 
-COLLECT_GCC_OPTIONS='-fstack-protector-strong' '-fPIE' '-pie' '-v' '-o' 'CMakeFiles/cmTC_d1473.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=cortex-a76.cortex-a55' '-mlittle-endian' '-mabi=lp64'
- /home/ljh/ljh_nfs/my_toolchain/host/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/10.4.0/cc1plus -quiet -v -iprefix /home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/ -isysroot /home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot -D_GNU_SOURCE /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=cortex-a76.cortex-a55 -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_d1473.dir/CMakeCXXCompilerABI.cpp.o -version -fstack-protector-strong -fPIE -o /tmp/cc9UaznS.s
+COLLECT_GCC_OPTIONS='-fstack-protector-strong' '-fPIE' '-pie' '-v' '-o' 'CMakeFiles/cmTC_7319c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=cortex-a76.cortex-a55' '-mlittle-endian' '-mabi=lp64'
+ /home/ljh/ljh_nfs/my_toolchain/host/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/10.4.0/cc1plus -quiet -v -iprefix /home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/ -isysroot /home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot -D_GNU_SOURCE /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=cortex-a76.cortex-a55 -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_7319c.dir/CMakeCXXCompilerABI.cpp.o -version -fstack-protector-strong -fPIE -o /tmp/ccWUSrIe.s
 GNU C++14 (Buildroot -g707f65be-dirty) version 10.4.0 (aarch64-buildroot-linux-gnu)
 	compiled by GNU C version 7.5.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
@@ -262,15 +262,15 @@ GNU C++14 (Buildroot -g707f65be-dirty) version 10.4.0 (aarch64-buildroot-linux-g
 	compiled by GNU C version 7.5.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 38eb4deb36b914b5f89a605b01778c60
-COLLECT_GCC_OPTIONS='-fstack-protector-strong' '-fPIE' '-pie' '-v' '-o' 'CMakeFiles/cmTC_d1473.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=cortex-a76.cortex-a55' '-mlittle-endian' '-mabi=lp64'
- /home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/../../../../aarch64-buildroot-linux-gnu/bin/as -v -EL -march=armv8.2-a+fp16+rcpc+dotprod -mabi=lp64 -o CMakeFiles/cmTC_d1473.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc9UaznS.s
+COLLECT_GCC_OPTIONS='-fstack-protector-strong' '-fPIE' '-pie' '-v' '-o' 'CMakeFiles/cmTC_7319c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=cortex-a76.cortex-a55' '-mlittle-endian' '-mabi=lp64'
+ /home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/../../../../aarch64-buildroot-linux-gnu/bin/as -v -EL -march=armv8.2-a+fp16+rcpc+dotprod -mabi=lp64 -o CMakeFiles/cmTC_7319c.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccWUSrIe.s
 GNU assembler version 2.37 (aarch64-buildroot-linux-gnu) using BFD version (GNU Binutils) 2.37
 COMPILER_PATH=/home/ljh/ljh_nfs/my_toolchain/host/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/10.4.0/:/home/ljh/ljh_nfs/my_toolchain/host/bin/../libexec/gcc/:/home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/../../../../aarch64-buildroot-linux-gnu/bin/
 LIBRARY_PATH=/home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/:/home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/:/home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/../../../../aarch64-buildroot-linux-gnu/lib/../lib64/:/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/lib/../lib64/:/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/:/home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/../../../../aarch64-buildroot-linux-gnu/lib/:/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/lib/:/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/
-COLLECT_GCC_OPTIONS='-fstack-protector-strong' '-fPIE' '-pie' '-v' '-o' 'CMakeFiles/cmTC_d1473.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=cortex-a76.cortex-a55' '-mlittle-endian' '-mabi=lp64'
-Linking CXX executable cmTC_d1473
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1473.dir/link.txt --verbose=1
-/home/ljh/ljh_nfs/my_toolchain/host/bin/aarch64-buildroot-linux-gnu-g++  -v CMakeFiles/cmTC_d1473.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_d1473 
+COLLECT_GCC_OPTIONS='-fstack-protector-strong' '-fPIE' '-pie' '-v' '-o' 'CMakeFiles/cmTC_7319c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=cortex-a76.cortex-a55' '-mlittle-endian' '-mabi=lp64'
+Linking CXX executable cmTC_7319c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7319c.dir/link.txt --verbose=1
+/home/ljh/ljh_nfs/my_toolchain/host/bin/aarch64-buildroot-linux-gnu-g++  -v CMakeFiles/cmTC_7319c.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_7319c 
 Using built-in specs.
 COLLECT_GCC=/home/ljh/ljh_nfs/my_toolchain/host/bin/aarch64-buildroot-linux-gnu-g++.br_real
 COLLECT_LTO_WRAPPER=/home/ljh/ljh_nfs/my_toolchain/host/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/10.4.0/lto-wrapper
@@ -281,10 +281,10 @@ Supported LTO compression algorithms: zlib
 gcc version 10.4.0 (Buildroot -g707f65be-dirty) 
 COMPILER_PATH=/home/ljh/ljh_nfs/my_toolchain/host/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/10.4.0/:/home/ljh/ljh_nfs/my_toolchain/host/bin/../libexec/gcc/:/home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/../../../../aarch64-buildroot-linux-gnu/bin/
 LIBRARY_PATH=/home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/:/home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/:/home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/../../../../aarch64-buildroot-linux-gnu/lib/../lib64/:/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/lib/../lib64/:/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/:/home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/../../../../aarch64-buildroot-linux-gnu/lib/:/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/lib/:/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/
-COLLECT_GCC_OPTIONS='-fstack-protector-strong' '-fPIE' '-pie' '-v' '-o' 'cmTC_d1473' '-shared-libgcc' '-mcpu=cortex-a76.cortex-a55' '-mlittle-endian' '-mabi=lp64'
- /home/ljh/ljh_nfs/my_toolchain/host/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/10.4.0/collect2 -plugin /home/ljh/ljh_nfs/my_toolchain/host/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/10.4.0/liblto_plugin.so -plugin-opt=/home/ljh/ljh_nfs/my_toolchain/host/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/10.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccoooeYn.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot --eh-frame-hdr -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -pie -o cmTC_d1473 /home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/Scrt1.o /home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/crti.o /home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/crtbeginS.o -L/home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0 -L/home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc -L/home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/../../../../aarch64-buildroot-linux-gnu/lib/../lib64 -L/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/lib/../lib64 -L/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64 -L/home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/../../../../aarch64-buildroot-linux-gnu/lib -L/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/lib -L/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib -z now -z relro CMakeFiles/cmTC_d1473.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/crtendS.o /home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/crtn.o
-COLLECT_GCC_OPTIONS='-fstack-protector-strong' '-fPIE' '-pie' '-v' '-o' 'cmTC_d1473' '-shared-libgcc' '-mcpu=cortex-a76.cortex-a55' '-mlittle-endian' '-mabi=lp64'
-gmake[1]: Leaving directory '/home/ljh/ljh_nfs/resnet/src/build_release/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-fstack-protector-strong' '-fPIE' '-pie' '-v' '-o' 'cmTC_7319c' '-shared-libgcc' '-mcpu=cortex-a76.cortex-a55' '-mlittle-endian' '-mabi=lp64'
+ /home/ljh/ljh_nfs/my_toolchain/host/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/10.4.0/collect2 -plugin /home/ljh/ljh_nfs/my_toolchain/host/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/10.4.0/liblto_plugin.so -plugin-opt=/home/ljh/ljh_nfs/my_toolchain/host/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/10.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYNxvFz.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot --eh-frame-hdr -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -pie -o cmTC_7319c /home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/Scrt1.o /home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/crti.o /home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/crtbeginS.o -L/home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0 -L/home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc -L/home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/../../../../aarch64-buildroot-linux-gnu/lib/../lib64 -L/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/lib/../lib64 -L/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64 -L/home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/../../../../aarch64-buildroot-linux-gnu/lib -L/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/lib -L/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib -z now -z relro CMakeFiles/cmTC_7319c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/crtendS.o /home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-fstack-protector-strong' '-fPIE' '-pie' '-v' '-o' 'cmTC_7319c' '-shared-libgcc' '-mcpu=cortex-a76.cortex-a55' '-mlittle-endian' '-mabi=lp64'
+gmake[1]: Leaving directory '/home/ljh/ljh_nfs/resnet_multi_labels/resnet/src/build_release/CMakeFiles/CMakeTmp'
 
 
 
@@ -311,12 +311,12 @@ Parsed CXX implicit include dir info from above output: rv=done
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(aarch64-buildroot-linux-gnu-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/ljh/ljh_nfs/resnet/src/build_release/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/ljh/ljh_nfs/resnet_multi_labels/resnet/src/build_release/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d1473/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d1473.dir/build.make CMakeFiles/cmTC_d1473.dir/build]
-  ignore line: [gmake[1]: Entering directory '/home/ljh/ljh_nfs/resnet/src/build_release/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_d1473.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/home/ljh/ljh_nfs/my_toolchain/host/bin/aarch64-buildroot-linux-gnu-g++   -v -o CMakeFiles/cmTC_d1473.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7319c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7319c.dir/build.make CMakeFiles/cmTC_7319c.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/ljh/ljh_nfs/resnet_multi_labels/resnet/src/build_release/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_7319c.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/home/ljh/ljh_nfs/my_toolchain/host/bin/aarch64-buildroot-linux-gnu-g++   -v -o CMakeFiles/cmTC_7319c.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/home/ljh/ljh_nfs/my_toolchain/host/bin/aarch64-buildroot-linux-gnu-g++.br_real]
   ignore line: [Target: aarch64-buildroot-linux-gnu]
@@ -324,8 +324,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [Thread model: posix]
   ignore line: [Supported LTO compression algorithms: zlib]
   ignore line: [gcc version 10.4.0 (Buildroot -g707f65be-dirty) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-fstack-protector-strong' '-fPIE' '-pie' '-v' '-o' 'CMakeFiles/cmTC_d1473.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=cortex-a76.cortex-a55' '-mlittle-endian' '-mabi=lp64']
-  ignore line: [ /home/ljh/ljh_nfs/my_toolchain/host/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/10.4.0/cc1plus -quiet -v -iprefix /home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/ -isysroot /home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot -D_GNU_SOURCE /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=cortex-a76.cortex-a55 -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_d1473.dir/CMakeCXXCompilerABI.cpp.o -version -fstack-protector-strong -fPIE -o /tmp/cc9UaznS.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-fstack-protector-strong' '-fPIE' '-pie' '-v' '-o' 'CMakeFiles/cmTC_7319c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=cortex-a76.cortex-a55' '-mlittle-endian' '-mabi=lp64']
+  ignore line: [ /home/ljh/ljh_nfs/my_toolchain/host/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/10.4.0/cc1plus -quiet -v -iprefix /home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/ -isysroot /home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot -D_GNU_SOURCE /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=cortex-a76.cortex-a55 -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_7319c.dir/CMakeCXXCompilerABI.cpp.o -version -fstack-protector-strong -fPIE -o /tmp/ccWUSrIe.s]
   ignore line: [GNU C++14 (Buildroot -g707f65be-dirty) version 10.4.0 (aarch64-buildroot-linux-gnu)]
   ignore line: [	compiled by GNU C version 7.5.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
@@ -350,15 +350,15 @@ Parsed CXX implicit link information from above output:
   ignore line: [	compiled by GNU C version 7.5.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 38eb4deb36b914b5f89a605b01778c60]
-  ignore line: [COLLECT_GCC_OPTIONS='-fstack-protector-strong' '-fPIE' '-pie' '-v' '-o' 'CMakeFiles/cmTC_d1473.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=cortex-a76.cortex-a55' '-mlittle-endian' '-mabi=lp64']
-  ignore line: [ /home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/../../../../aarch64-buildroot-linux-gnu/bin/as -v -EL -march=armv8.2-a+fp16+rcpc+dotprod -mabi=lp64 -o CMakeFiles/cmTC_d1473.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc9UaznS.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-fstack-protector-strong' '-fPIE' '-pie' '-v' '-o' 'CMakeFiles/cmTC_7319c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=cortex-a76.cortex-a55' '-mlittle-endian' '-mabi=lp64']
+  ignore line: [ /home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/../../../../aarch64-buildroot-linux-gnu/bin/as -v -EL -march=armv8.2-a+fp16+rcpc+dotprod -mabi=lp64 -o CMakeFiles/cmTC_7319c.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccWUSrIe.s]
   ignore line: [GNU assembler version 2.37 (aarch64-buildroot-linux-gnu) using BFD version (GNU Binutils) 2.37]
   ignore line: [COMPILER_PATH=/home/ljh/ljh_nfs/my_toolchain/host/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/10.4.0/:/home/ljh/ljh_nfs/my_toolchain/host/bin/../libexec/gcc/:/home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/../../../../aarch64-buildroot-linux-gnu/bin/]
   ignore line: [LIBRARY_PATH=/home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/:/home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/:/home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/../../../../aarch64-buildroot-linux-gnu/lib/../lib64/:/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/lib/../lib64/:/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/:/home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/../../../../aarch64-buildroot-linux-gnu/lib/:/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/lib/:/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-fstack-protector-strong' '-fPIE' '-pie' '-v' '-o' 'CMakeFiles/cmTC_d1473.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=cortex-a76.cortex-a55' '-mlittle-endian' '-mabi=lp64']
-  ignore line: [Linking CXX executable cmTC_d1473]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1473.dir/link.txt --verbose=1]
-  ignore line: [/home/ljh/ljh_nfs/my_toolchain/host/bin/aarch64-buildroot-linux-gnu-g++  -v CMakeFiles/cmTC_d1473.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_d1473 ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fstack-protector-strong' '-fPIE' '-pie' '-v' '-o' 'CMakeFiles/cmTC_7319c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=cortex-a76.cortex-a55' '-mlittle-endian' '-mabi=lp64']
+  ignore line: [Linking CXX executable cmTC_7319c]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7319c.dir/link.txt --verbose=1]
+  ignore line: [/home/ljh/ljh_nfs/my_toolchain/host/bin/aarch64-buildroot-linux-gnu-g++  -v CMakeFiles/cmTC_7319c.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_7319c ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/home/ljh/ljh_nfs/my_toolchain/host/bin/aarch64-buildroot-linux-gnu-g++.br_real]
   ignore line: [COLLECT_LTO_WRAPPER=/home/ljh/ljh_nfs/my_toolchain/host/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/10.4.0/lto-wrapper]
@@ -369,13 +369,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 10.4.0 (Buildroot -g707f65be-dirty) ]
   ignore line: [COMPILER_PATH=/home/ljh/ljh_nfs/my_toolchain/host/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/10.4.0/:/home/ljh/ljh_nfs/my_toolchain/host/bin/../libexec/gcc/:/home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/../../../../aarch64-buildroot-linux-gnu/bin/]
   ignore line: [LIBRARY_PATH=/home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/:/home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/:/home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/../../../../aarch64-buildroot-linux-gnu/lib/../lib64/:/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/lib/../lib64/:/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/:/home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/../../../../aarch64-buildroot-linux-gnu/lib/:/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/lib/:/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-fstack-protector-strong' '-fPIE' '-pie' '-v' '-o' 'cmTC_d1473' '-shared-libgcc' '-mcpu=cortex-a76.cortex-a55' '-mlittle-endian' '-mabi=lp64']
-  link line: [ /home/ljh/ljh_nfs/my_toolchain/host/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/10.4.0/collect2 -plugin /home/ljh/ljh_nfs/my_toolchain/host/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/10.4.0/liblto_plugin.so -plugin-opt=/home/ljh/ljh_nfs/my_toolchain/host/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/10.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccoooeYn.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot --eh-frame-hdr -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -pie -o cmTC_d1473 /home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/Scrt1.o /home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/crti.o /home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/crtbeginS.o -L/home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0 -L/home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc -L/home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/../../../../aarch64-buildroot-linux-gnu/lib/../lib64 -L/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/lib/../lib64 -L/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64 -L/home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/../../../../aarch64-buildroot-linux-gnu/lib -L/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/lib -L/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib -z now -z relro CMakeFiles/cmTC_d1473.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/crtendS.o /home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-fstack-protector-strong' '-fPIE' '-pie' '-v' '-o' 'cmTC_7319c' '-shared-libgcc' '-mcpu=cortex-a76.cortex-a55' '-mlittle-endian' '-mabi=lp64']
+  link line: [ /home/ljh/ljh_nfs/my_toolchain/host/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/10.4.0/collect2 -plugin /home/ljh/ljh_nfs/my_toolchain/host/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/10.4.0/liblto_plugin.so -plugin-opt=/home/ljh/ljh_nfs/my_toolchain/host/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/10.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYNxvFz.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot --eh-frame-hdr -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -pie -o cmTC_7319c /home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/Scrt1.o /home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/crti.o /home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/crtbeginS.o -L/home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0 -L/home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc -L/home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/../../../../aarch64-buildroot-linux-gnu/lib/../lib64 -L/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/lib/../lib64 -L/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64 -L/home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/../../../../aarch64-buildroot-linux-gnu/lib -L/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/lib -L/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib -z now -z relro CMakeFiles/cmTC_7319c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/crtendS.o /home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/crtn.o]
     arg [/home/ljh/ljh_nfs/my_toolchain/host/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/10.4.0/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/home/ljh/ljh_nfs/my_toolchain/host/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/10.4.0/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/home/ljh/ljh_nfs/my_toolchain/host/bin/../libexec/gcc/aarch64-buildroot-linux-gnu/10.4.0/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccoooeYn.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccYNxvFz.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -390,7 +390,7 @@ Parsed CXX implicit link information from above output:
     arg [-maarch64linux] ==> ignore
     arg [-pie] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_d1473] ==> ignore
+    arg [cmTC_7319c] ==> ignore
     arg [/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/Scrt1.o] ==> obj [/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/Scrt1.o]
     arg [/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/crti.o] ==> obj [/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/../lib64/crti.o]
     arg [/home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/crtbeginS.o] ==> obj [/home/ljh/ljh_nfs/my_toolchain/host/bin/../lib/gcc/aarch64-buildroot-linux-gnu/10.4.0/crtbeginS.o]
@@ -404,7 +404,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib] ==> dir [/home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib]
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
-    arg [CMakeFiles/cmTC_d1473.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_7319c.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -434,30 +434,30 @@ Parsed CXX implicit link information from above output:
 
 
 Determining if the include file pthread.h exists passed with the following output:
-Change Dir: /home/ljh/ljh_nfs/resnet/src/build_release/CMakeFiles/CMakeTmp
+Change Dir: /home/ljh/ljh_nfs/resnet_multi_labels/resnet/src/build_release/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_71fb5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_71fb5.dir/build.make CMakeFiles/cmTC_71fb5.dir/build
-gmake[1]: 进入目录“/home/ljh/ljh_nfs/resnet/src/build_release/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_71fb5.dir/CheckIncludeFile.c.o
-/home/ljh/ljh_nfs/my_toolchain/host/bin/aarch64-buildroot-linux-gnu-gcc   -fPIE -o CMakeFiles/cmTC_71fb5.dir/CheckIncludeFile.c.o -c /home/ljh/ljh_nfs/resnet/src/build_release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_71fb5
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_71fb5.dir/link.txt --verbose=1
-/home/ljh/ljh_nfs/my_toolchain/host/bin/aarch64-buildroot-linux-gnu-gcc CMakeFiles/cmTC_71fb5.dir/CheckIncludeFile.c.o -o cmTC_71fb5 
-gmake[1]: 离开目录“/home/ljh/ljh_nfs/resnet/src/build_release/CMakeFiles/CMakeTmp”
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_63133/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_63133.dir/build.make CMakeFiles/cmTC_63133.dir/build
+gmake[1]: 进入目录“/home/ljh/ljh_nfs/resnet_multi_labels/resnet/src/build_release/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_63133.dir/CheckIncludeFile.c.o
+/home/ljh/ljh_nfs/my_toolchain/host/bin/aarch64-buildroot-linux-gnu-gcc   -fPIE -o CMakeFiles/cmTC_63133.dir/CheckIncludeFile.c.o -c /home/ljh/ljh_nfs/resnet_multi_labels/resnet/src/build_release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_63133
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_63133.dir/link.txt --verbose=1
+/home/ljh/ljh_nfs/my_toolchain/host/bin/aarch64-buildroot-linux-gnu-gcc CMakeFiles/cmTC_63133.dir/CheckIncludeFile.c.o -o cmTC_63133 
+gmake[1]: 离开目录“/home/ljh/ljh_nfs/resnet_multi_labels/resnet/src/build_release/CMakeFiles/CMakeTmp”
 
 
 
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
-Change Dir: /home/ljh/ljh_nfs/resnet/src/build_release/CMakeFiles/CMakeTmp
+Change Dir: /home/ljh/ljh_nfs/resnet_multi_labels/resnet/src/build_release/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a2736/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a2736.dir/build.make CMakeFiles/cmTC_a2736.dir/build
-gmake[1]: 进入目录“/home/ljh/ljh_nfs/resnet/src/build_release/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_a2736.dir/src.c.o
-/home/ljh/ljh_nfs/my_toolchain/host/bin/aarch64-buildroot-linux-gnu-gcc -DCMAKE_HAVE_LIBC_PTHREAD  -fPIE -o CMakeFiles/cmTC_a2736.dir/src.c.o -c /home/ljh/ljh_nfs/resnet/src/build_release/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_a2736
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a2736.dir/link.txt --verbose=1
-/home/ljh/ljh_nfs/my_toolchain/host/bin/aarch64-buildroot-linux-gnu-gcc CMakeFiles/cmTC_a2736.dir/src.c.o -o cmTC_a2736 
-gmake[1]: 离开目录“/home/ljh/ljh_nfs/resnet/src/build_release/CMakeFiles/CMakeTmp”
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7e062/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7e062.dir/build.make CMakeFiles/cmTC_7e062.dir/build
+gmake[1]: 进入目录“/home/ljh/ljh_nfs/resnet_multi_labels/resnet/src/build_release/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_7e062.dir/src.c.o
+/home/ljh/ljh_nfs/my_toolchain/host/bin/aarch64-buildroot-linux-gnu-gcc -DCMAKE_HAVE_LIBC_PTHREAD  -fPIE -o CMakeFiles/cmTC_7e062.dir/src.c.o -c /home/ljh/ljh_nfs/resnet_multi_labels/resnet/src/build_release/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_7e062
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e062.dir/link.txt --verbose=1
+/home/ljh/ljh_nfs/my_toolchain/host/bin/aarch64-buildroot-linux-gnu-gcc CMakeFiles/cmTC_7e062.dir/src.c.o -o cmTC_7e062 
+gmake[1]: 离开目录“/home/ljh/ljh_nfs/resnet_multi_labels/resnet/src/build_release/CMakeFiles/CMakeTmp”
 
 
 Source file was:

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/ljh/ljh_nfs/resnet/utils/image_drawing.c" "utils.out/CMakeFiles/imagedrawing.dir/image_drawing.c.o" "gcc" "utils.out/CMakeFiles/imagedrawing.dir/image_drawing.c.o.d"
+  "/home/ljh/ljh_nfs/resnet_multi_labels/resnet/utils/image_drawing.c" "utils.out/CMakeFiles/imagedrawing.dir/image_drawing.c.o" "gcc" "utils.out/CMakeFiles/imagedrawing.dir/image_drawing.c.o.d"
   )
 
 # Targets to which this target links.

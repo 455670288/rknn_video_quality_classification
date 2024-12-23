@@ -4,10 +4,14 @@
 
 using namespace Abnormal;
 
-NormalDet normaldet;
-resnet_result result_cls[5];
-bool is_dark = false;
+NormalDet normaldet;          //实例化黑屏、冻结检测
+resnet_result result_cls[6];  //存储分类模型输出
+bool is_dark = false; 
 bool is_freeze = false;
+
+
+static int count = 0;
+
 
 
 AbnormalAnalysis::AbnormalAnalysis(){
@@ -31,6 +35,7 @@ int Abnormal::AbnormalAnalysis::infer(const cv::Mat& image){
     is_dark = normaldet.BlackScreenDet(image);
     is_freeze = normaldet.FreezeDet(image);
 
+
     return 0;
 }
 
@@ -39,7 +44,9 @@ int AbnormalAnalysis::detect(AbnormalType abt, float threshold, bool &is_abnorma
     
     if(abt == darkDet){
         if(is_dark){
-            std::cout << "黑屏" << std::endl;
+            count ++;
+            std::cout << "无视频" << " " << count << std::endl;
+            std::cout << std::endl;
             is_abnormal = true;
             conf = 1;
         }else{
@@ -48,9 +55,11 @@ int AbnormalAnalysis::detect(AbnormalType abt, float threshold, bool &is_abnorma
         }
     }
     else if (abt == freezeDet)
-    {
+    {   
         if(is_freeze){
-            std::cout << "冻结" << std::endl;
+            count ++;
+            std::cout << "画面冻结" << " "  << count<< std::endl;
+            std::cout << std::endl;
             is_abnormal = true;
             conf = 1;            
         }else{
@@ -62,48 +71,63 @@ int AbnormalAnalysis::detect(AbnormalType abt, float threshold, bool &is_abnorma
         if(classes_labels[result_cls[0].cls] == "blur" && result_cls[0].score >= threshold){
             is_abnormal = true;
             conf = result_cls[0].score;
+            count ++;
+            std::cout << "清晰度异常" << " " << count << std::endl;
+            std::cout << std::endl;
         }else{
             is_abnormal = false;
             conf = 0;
         }
     }
     else if (abt == colorBarDet){
-        if(classes_labels[result_cls[0].cls] == "color-bar" && result_cls[0].score >= threshold){
+        if(classes_labels[result_cls[1].cls] == "color-bar" && result_cls[1].score >= threshold){
             is_abnormal = true;
-            conf = result_cls[0].score;
-            // std::cout << "彩条" << std::endl;
+            conf = result_cls[1].score;
+            count ++;
+            std::cout << "彩条" << " " << count << std::endl;
+            std::cout << std::endl;
         }else{
             is_abnormal = false;
             conf = 0;
         }
     }
     else if (abt == coverDet){
-        if(classes_labels[result_cls[0].cls] == "cover" && result_cls[0].score >= threshold){
+        if(classes_labels[result_cls[2].cls] == "cover" && result_cls[2].score >= threshold){
             is_abnormal = true;
-            conf = result_cls[0].score;
+            conf = result_cls[2].score;
+            count ++;
+            std::cout << "遮挡异常" << " " << count << std::endl;
+            std::cout << std::endl;
         }else{
             is_abnormal = false;
             conf = 0;
         }
     }
     else if (abt == fringeNoiseDet){
-        if(classes_labels[result_cls[0].cls] == "fringe-noise" && result_cls[0].score >= threshold){
+        if(classes_labels[result_cls[3].cls] == "fringe-noise" && result_cls[3].score >= threshold){
             is_abnormal = true;
-            conf = result_cls[0].score;
+            conf = result_cls[3].score;
+            count ++;
+            std::cout << "条纹噪声" << " "  << count << std::endl;
+            std::cout << std::endl;
         }else{
             is_abnormal = false;
             conf = 0;
         }
     }
     else if (abt == snowNoiseDet){
-        if(classes_labels[result_cls[0].cls] == "snow-noise" && result_cls[0].score >= threshold){
+        if(classes_labels[result_cls[5].cls] == "snow-noise" && result_cls[5].score >= threshold){
             is_abnormal = true;
-            conf = result_cls[0].score;
+            conf = result_cls[5].score;
+            count ++;
+            std::cout << "雪花噪声" << " " << count << std::endl;
+            std::cout << std::endl;
         }else{
             is_abnormal = false;
             conf = 0;
         }
     }
+
 
     return 0;
 

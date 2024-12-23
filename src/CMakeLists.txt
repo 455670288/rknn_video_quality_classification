@@ -29,29 +29,28 @@ set(CMAKE_INSTALL_RPATH "$ORIGIN/../lib")
 set(LIBRKNNRT_INCLUDES ${CMAKE_CURRENT_SOURCE_DIR}/../3rdparty/rknpu2/include)
 set(LIBRKNNRT ${CMAKE_CURRENT_SOURCE_DIR}/../3rdparty/rknpu2/Linux/aarch64/librknnrt.so)
 
-# set(LIBABNORMAL_INCLUDES ${CMAKE_CURRENT_SOURCE_DIR}/../freeze_detect/src)
-# set(LIBABNORMAL ${CMAKE_CURRENT_SOURCE_DIR}/../freeze_detect/build2/libabnormal_detect.so )
 
-
-# set(OpenCV_DIR /home/firefly/ljh/opencv4.5-dynamic/lib/cmake/opencv4)
-set(OpenCV_DIR /home/ljh/ljh_nfs/ItcMultiDetect/3rdparty/GCC_10_4/opencv/opencv-linux-aarch64/share/OpenCV)
+# set(OpenCV_DIR /home/ljh/ljh_nfs/ItcMultiDetect/3rdparty/GCC_10_4/opencv/opencv-linux-aarch64/share/OpenCV)
+set(OpenCV_DIR /home/firefly/ljh/opencv4.5-dynamic/lib/cmake/opencv4)
 find_package(OpenCV REQUIRED)
 
 
 file(GLOB SRCS ${CMAKE_CURRENT_SOURCE_DIR}/*.cc)
 
-# add_executable(${PROJECT_NAME} 
-#     main.cc
-#     rknpu2/resnet.cc
-#     resize_function.cc
-#     AbnormalAnalysis.cc
-# )
-
-add_library(${PROJECT_NAME} SHARED
+add_executable(${PROJECT_NAME} 
+    main.cc
     rknpu2/resnet.cc
     resize_function.cc
-    AbnormalAnalysis.cc  
+    AbnormalAnalysis.cc
 )
+
+
+#.so
+# add_library(${PROJECT_NAME} SHARED
+#     rknpu2/resnet.cc
+#     resize_function.cc
+#     AbnormalAnalysis.cc  
+# )
 
 
 # 将 子目录 的库链接到主项目

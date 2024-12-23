@@ -4,7 +4,7 @@
 # compile CXX with /home/ljh/ljh_nfs/my_toolchain/host/bin/aarch64-buildroot-linux-gnu-g++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/ljh/ljh_nfs/resnet/src -I/home/ljh/ljh_nfs/resnet/freeze_detect/src -isystem /home/ljh/ljh_nfs/ItcMultiDetect/3rdparty/GCC_10_4/opencv/opencv-linux-aarch64/include -isystem /home/ljh/ljh_nfs/ItcMultiDetect/3rdparty/GCC_10_4/opencv/opencv-linux-aarch64/include/opencv
+CXX_INCLUDES = -I/home/ljh/ljh_nfs/resnet_multi_labels/resnet/src -I/home/ljh/ljh_nfs/resnet_multi_labels/resnet/freeze_detect/src -isystem /home/ljh/ljh_nfs/ItcMultiDetect/3rdparty/GCC_10_4/opencv/opencv-linux-aarch64/include -isystem /home/ljh/ljh_nfs/ItcMultiDetect/3rdparty/GCC_10_4/opencv/opencv-linux-aarch64/include/opencv
 
 CXX_FLAGS = -fPIC -std=gnu++11
 

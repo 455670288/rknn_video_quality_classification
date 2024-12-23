@@ -1,7 +1,7 @@
 normal_det.out/CMakeFiles/abnormal_detect.dir/src/normal_det.cc.o: \
- /home/ljh/ljh_nfs/resnet/freeze_detect/src/normal_det.cc \
+ /home/ljh/ljh_nfs/resnet_multi_labels/resnet/freeze_detect/src/normal_det.cc \
  /home/ljh/ljh_nfs/my_toolchain/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/stdc-predef.h \
- /home/ljh/ljh_nfs/resnet/freeze_detect/src/normal_det.h \
+ /home/ljh/ljh_nfs/resnet_multi_labels/resnet/freeze_detect/src/normal_det.h \
  /home/ljh/ljh_nfs/ItcMultiDetect/3rdparty/GCC_10_4/opencv/opencv-linux-aarch64/include/opencv2/opencv.hpp \
  /home/ljh/ljh_nfs/ItcMultiDetect/3rdparty/GCC_10_4/opencv/opencv-linux-aarch64/include/opencv2/opencv_modules.hpp \
  /home/ljh/ljh_nfs/ItcMultiDetect/3rdparty/GCC_10_4/opencv/opencv-linux-aarch64/include/opencv2/core.hpp \

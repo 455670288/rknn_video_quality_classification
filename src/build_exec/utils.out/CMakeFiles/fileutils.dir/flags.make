@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/home/firefly/ljh/resnet/utils
+C_INCLUDES = -I/home/firefly/ljh/resnet_multi_labels/resnet/utils
 
 C_FLAGS = -fPIC
 

@@ -55,6 +55,18 @@ void quick_sort(element_t arr[], int low, int high) {
     }
 }
 
+
+void sigmoid(float* array, int size, resnet_result* result_cls) {
+    for (int i = 0; i < size; ++i) {
+        array[i] = 1.0f / (1.0f + std::exp(-array[i]));
+        // std::cout << i << ": " << array[i] << std::endl;
+        result_cls[i].cls = i;
+        result_cls[i].score = array[i]; 
+        // std::cout << result_cls[i].cls << ": " << result_cls[i].score << std::endl;
+    }
+}
+
+
 void softmax(float* array, int size) {
     // Find the maximum value in the array
     float max_val = array[0];
@@ -331,8 +343,13 @@ int Abnormal::AbnormalAnalysis::Impl::inference_resnet_model(const cv::Mat &img,
     }
 
     // Post Process
-    softmax((float*)outputs[0].buf, app_ctx->output_attrs[0].n_elems);
-    get_topk_with_indices((float*)outputs[0].buf, app_ctx->output_attrs[0].n_elems, topk, result_cls);
+    // softmax((float*)outputs[0].buf, app_ctx->output_attrs[0].n_elems);
+    // get_topk_with_indices((float*)outputs[0].buf, app_ctx->output_attrs[0].n_elems, topk, result_cls);
+    
+    //多标签分类后处理
+    sigmoid((float*)outputs[0].buf, app_ctx->output_attrs[0].n_elems, result_cls);
+
+
     // Remeber to release rknn output
     rknn_outputs_release(app_ctx->rknn_ctx, 1, outputs);
 
@@ -340,6 +357,7 @@ int Abnormal::AbnormalAnalysis::Impl::inference_resnet_model(const cv::Mat &img,
     // for (int i = 0; i < topk; i++) {
     //     printf("[%d] score=%.6f class=%s\n", result_cls[i].cls, result_cls[i].score, classes_labels[result_cls[i].cls].c_str());
     // }
+
 
     return ret;
 }

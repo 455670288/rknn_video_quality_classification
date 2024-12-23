@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/firefly/ljh/resnet/utils/file_utils.c" "/home/firefly/ljh/resnet/src/build_exec/utils.out/CMakeFiles/fileutils.dir/file_utils.c.o"
+  "/home/firefly/ljh/resnet_multi_labels/resnet/utils/file_utils.c" "/home/firefly/ljh/resnet_multi_labels/resnet/src/build_exec/utils.out/CMakeFiles/fileutils.dir/file_utils.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
-  "/home/firefly/ljh/resnet/utils"
+  "/home/firefly/ljh/resnet_multi_labels/resnet/utils"
   )
 
 # Targets to which this target links.

@@ -37,17 +37,26 @@
 // constexpr const char* Imagenet_classes_file_path = "../video_quality_label.txt";
 
 
+struct Text_Result {
+    bool is_DarkDet= false;
+    bool is_Freeze = false;
+    bool is_ColorBar = false;
+    bool is_Cover =false;
+    bool is_Blur = false;
+    bool is_Frige = false;
+    bool is_Snow = false;
+};
+
+
+
+
 /*-------------------------------------------
                   Main Function
 -------------------------------------------*/
 int main(int argc, char **argv)
 {
-//    if (argc != 2) {
-//         printf("%s <model_path>\n", argv[0]);
-//         return -1;
-//     }
 
-    const char* model_path = "../../model/resnet50_video_quality_20241216.rknn";
+    const char* model_path = "../../model/resnet50_video_quality_multi_labels_20241220.rknn";
 
     cv::VideoCapture cap("rtsp://172.16.40.84:553/live",cv::CAP_FFMPEG);
 
@@ -58,6 +67,19 @@ int main(int argc, char **argv)
         printf("init_mobilenet_model fail! ret=%d model_path=%s\n", ret, model_path);
         return -1;
     }
+    
+    ///////////////////////////////////
+    // cv::VideoCapture cap("concatenated_video.mp4");
+    // 获取视频的帧率、分辨率等信息
+    double fps = cap.get(cv::CAP_PROP_FPS);
+    int frame_width = (int) cap.get(cv::CAP_PROP_FRAME_WIDTH);
+    int frame_height = (int) cap.get(cv::CAP_PROP_FRAME_HEIGHT);
+
+    // 创建输出视频文件
+    // cv::VideoWriter writer("output_video.mp4", cv::VideoWriter::fourcc('X', 'V', 'I', 'D'), fps, cv::Size(frame_width, frame_height));
+    //////////////////////////////////
+
+
 
     int frame_count = 0;
     int frame_interval = 2;
@@ -65,8 +87,11 @@ int main(int argc, char **argv)
     float threshold = 0;
     bool is_abnormal = false;
     float conf = 0;
+//  cv::namedWindow("AbnormalDetect", cv::WINDOW_NORMAL);
 
-    cv::Mat orig_img;
+
+    cv::Mat orig_img; 
+    Text_Result text_result;
     while(true){
         cap >> orig_img;
 
@@ -84,16 +109,71 @@ int main(int argc, char **argv)
 
         auto start = std::chrono::high_resolution_clock::now();
         ret = resnet.infer(rgb_img);
-        // ret = resnet.detect(Abnormal::AbnormalType::freezeDet, threshold, is_abnormal, conf);
-        ret = resnet.detect(Abnormal::AbnormalType::colorBarDet, threshold, is_abnormal, conf);
-
-
         std::cout << std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::high_resolution_clock::now() - start).count() << "ms" << std::endl;
 
-        std::cout << "################################################" << std::endl;
-        // Show result
-        cv::imshow("detect", orig_img);
+        resnet.detect(Abnormal::AbnormalType::darkDet, threshold, is_abnormal, conf);
+        text_result.is_DarkDet = is_abnormal;
+ 
+        resnet.detect(Abnormal::AbnormalType::freezeDet, threshold, is_abnormal, conf);
+        text_result.is_Freeze = is_abnormal;
+
+        ret = resnet.detect(Abnormal::AbnormalType::blurDet, 0.5, is_abnormal, conf);
+        text_result.is_Blur = is_abnormal;
+
+        ret = resnet.detect(Abnormal::AbnormalType::colorBarDet, 0.5, is_abnormal, conf);
+        text_result.is_ColorBar = is_abnormal;
+
+
+        ret = resnet.detect(Abnormal::AbnormalType::coverDet, 0.5, is_abnormal, conf);
+        text_result.is_Cover = is_abnormal;
+
+
+        ret = resnet.detect(Abnormal::AbnormalType::fringeNoiseDet, 0.5, is_abnormal, conf);
+        text_result.is_Frige = is_abnormal;
+
+        ret = resnet.detect(Abnormal::AbnormalType::snowNoiseDet, 0.5, is_abnormal, conf);
+        text_result.is_Snow = is_abnormal;
+
+        int y_offset = frame_height - 10;
+        int line_height = 10; 
+
+        // 检测和显示各种异常的文本
+        std::vector<std::pair<std::string, bool>> abnormal_texts = {
+            {"Signal Loss", text_result.is_DarkDet},
+            {"Video Freezing", text_result.is_Freeze},
+            {"Blur", text_result.is_Blur},
+            {"ColorBar", text_result.is_ColorBar},
+            {"Cover", text_result.is_Cover},
+            {"FringeNoise", text_result.is_Frige},
+            {"SnowNoise", text_result.is_Snow}
+        };
+
+        for (const auto& text_pair : abnormal_texts) {
+            if (text_pair.second) {  // 如果当前检测到异常
+            std::string text = text_pair.first;
+        
+            // 获取当前文本的大小
+            int baseline = 0;
+            cv::Size text_size = cv::getTextSize(text, cv::FONT_HERSHEY_SIMPLEX, 1, 2, &baseline);
+        
+            // 计算文本的y坐标，并更新y_offset
+            cv::Point text_org(10, y_offset);
+            y_offset -= text_size.height + line_height;  // 每次绘制后，y_offset往上移动
+        
+            // 绘制文本
+            cv::putText(orig_img, text, text_org, cv::FONT_HERSHEY_SIMPLEX, 1, cv::Scalar(0, 255, 0), 2);
+            }
         }
+
+
+        // writer.write(orig_img);
+        // std::cout << std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::high_resolution_clock::now() - start).count() << "ms" << std::endl;
+        // std::cout << "#######################" << std::endl;
+
+        // Show result
+        cv::imshow("AbnormalDetect", orig_img);
+        }
+        
         frame_count++;
 
         if (ret != 0) {
@@ -106,6 +186,7 @@ int main(int argc, char **argv)
             break;
     }
     cap.release();
+    // writer.release();
     cv::destroyAllWindows();
     
     printf("end test.....\n");

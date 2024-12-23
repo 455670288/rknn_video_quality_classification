@@ -40,8 +40,8 @@ include_directories(${CMAKE_SOURCE_DIR})
 # set(OpenCV_DIR /home/firefly/ljh/opencv4.5-static/lib/cmake/opencv4)
 # set(OpenCV_DIR /home/firefly/ljh/opencv4.5-dynamic/lib/cmake/opencv4)
 
-set(OpenCV_DIR /home/ljh/ljh_nfs/ItcMultiDetect/3rdparty/GCC_10_4/opencv/opencv-linux-aarch64/share/OpenCV)
-# set(OpenCV_DIR /home/firefly/ljh/opencv4.5-dynamic/lib/cmake/opencv4)
+# set(OpenCV_DIR /home/ljh/ljh_nfs/ItcMultiDetect/3rdparty/GCC_10_4/opencv/opencv-linux-aarch64/share/OpenCV)
+set(OpenCV_DIR /home/firefly/ljh/opencv4.5-dynamic/lib/cmake/opencv4)
 find_package(OpenCV REQUIRED) #在OpenCV_DIR路径中根据OpenCV包名寻找OpenCV库的配置文件
 
 

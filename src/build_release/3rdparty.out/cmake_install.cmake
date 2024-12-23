@@ -1,4 +1,4 @@
-# Install script for directory: /home/ljh/ljh_nfs/resnet/3rdparty
+# Install script for directory: /home/ljh/ljh_nfs/resnet_multi_labels/resnet/3rdparty
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -43,6 +43,6 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE PROGRAM FILES "/home/ljh/ljh_nfs/resnet/3rdparty/librga/Linux/aarch64/librga.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE PROGRAM FILES "/home/ljh/ljh_nfs/resnet_multi_labels/resnet/3rdparty/librga/Linux/aarch64/librga.so")
 endif()
 

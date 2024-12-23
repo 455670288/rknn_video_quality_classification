@@ -1,4 +1,4 @@
-# Install script for directory: /home/ljh/ljh_nfs/resnet/utils
+# Install script for directory: /home/ljh/ljh_nfs/resnet_multi_labels/resnet/utils
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/firefly/ljh/resnet/utils/file_utils.c
+/home/firefly/ljh/resnet_multi_labels/resnet/utils/file_utils.c
 stdio.h
 -
 stdlib.h

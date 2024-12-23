@@ -1,8 +1,8 @@
-# Install script for directory: /home/firefly/ljh/resnet/freeze_detect
+# Install script for directory: /home/firefly/ljh/resnet_multi_labels/resnet/freeze_detect
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/firefly/ljh/resnet/src/install/ItcMultiDetect_Linux")
+  set(CMAKE_INSTALL_PREFIX "/home/firefly/ljh/resnet_multi_labels/resnet/src/install/ItcMultiDetect_Linux")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

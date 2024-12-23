@@ -1,4 +1,4 @@
-# Install script for directory: /home/ljh/ljh_nfs/resnet/src
+# Install script for directory: /home/ljh/ljh_nfs/resnet_multi_labels/resnet/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,9 +44,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/ljh/ljh_nfs/resnet/src/build_release/3rdparty.out/cmake_install.cmake")
-  include("/home/ljh/ljh_nfs/resnet/src/build_release/utils.out/cmake_install.cmake")
-  include("/home/ljh/ljh_nfs/resnet/src/build_release/normal_det.out/cmake_install.cmake")
+  include("/home/ljh/ljh_nfs/resnet_multi_labels/resnet/src/build_release/3rdparty.out/cmake_install.cmake")
+  include("/home/ljh/ljh_nfs/resnet_multi_labels/resnet/src/build_release/utils.out/cmake_install.cmake")
+  include("/home/ljh/ljh_nfs/resnet_multi_labels/resnet/src/build_release/normal_det.out/cmake_install.cmake")
 
 endif()
 
@@ -58,5 +58,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ljh/ljh_nfs/resnet/src/build_release/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ljh/ljh_nfs/resnet_multi_labels/resnet/src/build_release/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
