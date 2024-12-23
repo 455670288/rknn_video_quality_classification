@@ -1,2 +1,0 @@
-/home/ljh/ljh_nfs/my_toolchain/host/bin/aarch64-buildroot-linux-gnu-ar qc libfileutils.a CMakeFiles/fileutils.dir/file_utils.c.o
-/home/ljh/ljh_nfs/my_toolchain/host/bin/aarch64-buildroot-linux-gnu-ranlib libfileutils.a

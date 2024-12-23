@@ -1,2 +1,0 @@
-/home/ljh/ljh_nfs/my_toolchain/host/bin/aarch64-buildroot-linux-gnu-ar qc libimagedrawing.a CMakeFiles/imagedrawing.dir/image_drawing.c.o
-/home/ljh/ljh_nfs/my_toolchain/host/bin/aarch64-buildroot-linux-gnu-ranlib libimagedrawing.a

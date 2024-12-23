@@ -1,2 +1,0 @@
-/home/ljh/ljh_nfs/my_toolchain/host/bin/aarch64-buildroot-linux-gnu-ar qc libabnormal_detect.a CMakeFiles/abnormal_detect.dir/src/normal_det.cc.o
-/home/ljh/ljh_nfs/my_toolchain/host/bin/aarch64-buildroot-linux-gnu-ranlib libabnormal_detect.a

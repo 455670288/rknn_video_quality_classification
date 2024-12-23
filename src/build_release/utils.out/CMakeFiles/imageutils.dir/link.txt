@@ -1,2 +1,0 @@
-/home/ljh/ljh_nfs/my_toolchain/host/bin/aarch64-buildroot-linux-gnu-ar qc libimageutils.a CMakeFiles/imageutils.dir/image_utils.c.o
-/home/ljh/ljh_nfs/my_toolchain/host/bin/aarch64-buildroot-linux-gnu-ranlib libimageutils.a
